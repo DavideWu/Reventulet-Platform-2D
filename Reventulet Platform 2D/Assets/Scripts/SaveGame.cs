@@ -9,4 +9,10 @@ public class SaveGame : MonoBehaviour
     {
         PlayerPrefs.SetInt("UnlockedLv", LvUnlocked);
     }
+
+    public int LvDifficulty;
+    public void SelectDifficulty()
+    {
+        PlayerPrefs.SetInt("DifficultyLv", LvDifficulty);
+    }
 }
