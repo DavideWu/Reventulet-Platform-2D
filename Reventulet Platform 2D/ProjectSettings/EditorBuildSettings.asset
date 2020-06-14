@@ -12,7 +12,10 @@ EditorBuildSettings:
     path: Assets/Scenes/Scene2SelectDifficulty.unity
     guid: 6c39c0337d47ffe43a89fe1571494aae
   - enabled: 1
-    path: Assets/Scenes/SelectLvScenes.unity
+    path: Assets/Scenes/Scene3StartGame.unity
+    guid: 8d32ffea782967b4db1d21569d7da289
+  - enabled: 1
+    path: Assets/Scenes/Scene4SelectLvScenes.unity
     guid: 2a9393cc6fdb859489868e689fe1fcaf
   - enabled: 1
     path: Assets/Scenes/Lv1.unity
@@ -20,4 +23,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Lv2.unity
     guid: 576cafc0408989c4996520e3fe02e87c
+  - enabled: 1
+    path: Assets/Scenes/Lv3.unity
+    guid: baf5202fc5ecadc498500605e29232a2
+  - enabled: 1
+    path: Assets/Scenes/Lv4.unity
+    guid: 06afb0eac9ae84e4a8c21d400c08b1f0
+  - enabled: 1
+    path: Assets/Scenes/Lv5.unity
+    guid: 2f3927aec59beae419aba2cdd4eecce3
+  - enabled: 1
+    path: Assets/Scenes/Scene5NewGame.unity
+    guid: a21c151e8f04f8145b90c0ceb5ba151d
   m_configObjects: {}

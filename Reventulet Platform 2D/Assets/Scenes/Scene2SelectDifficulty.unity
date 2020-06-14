@@ -1613,6 +1613,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LvUnlocked: 1
   LvDifficulty: 2
+  snowFlakeCoin: 0
 --- !u!1 &1079557096
 GameObject:
   m_ObjectHideFlags: 0
@@ -1788,6 +1789,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LvUnlocked: 1
   LvDifficulty: 4
+  snowFlakeCoin: 0
 --- !u!1 &1321720673
 GameObject:
   m_ObjectHideFlags: 0
@@ -1899,6 +1901,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LvUnlocked: 1
   LvDifficulty: 3
+  snowFlakeCoin: 0
 --- !u!1 &1396329187
 GameObject:
   m_ObjectHideFlags: 0
@@ -1930,6 +1933,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LvUnlocked: 1
   LvDifficulty: 1
+  snowFlakeCoin: 0
 --- !u!4 &1396329189
 Transform:
   m_ObjectHideFlags: 0
@@ -2177,7 +2181,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LvNeedToUnlock: 0
-  ScenesName: SelectLvScenes
+  ScenesName: Scene4SelectLvScenes
 --- !u!4 &1925564120
 Transform:
   m_ObjectHideFlags: 0

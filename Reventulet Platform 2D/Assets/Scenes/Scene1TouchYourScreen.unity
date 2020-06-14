@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 180448423}
   - component: {fileID: 180448422}
   m_Layer: 0
-  m_Name: ChangeScenesSLv
+  m_Name: ChangeScenesSG
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -151,7 +151,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LvNeedToUnlock: 0
-  ScenesName: SelectLvScenes
+  ScenesName: Scene3StartGame
 --- !u!4 &180448423
 Transform:
   m_ObjectHideFlags: 0

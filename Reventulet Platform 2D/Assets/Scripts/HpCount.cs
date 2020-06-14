@@ -12,11 +12,29 @@ public class HpCount : MonoBehaviour
     public Slider healthBar;
     public bool canTakeDMG = true;
 
+    public Text textHpCount;
 
     public string NameParameterBool;
 
 
-
+    private void Awake()
+    {
+        if (gameObject.CompareTag("Enemy"))
+        {
+            StartHp = StartHp * PlayerPrefs.GetInt("DifficultyLv");
+        }
+        else if(gameObject.CompareTag("Player"))
+        {
+            if(PlayerPrefs.GetInt("CoinSnowFlake") > StartHp *10)
+            {
+                StartHp = (StartHp * 10) + 500;
+            }
+            else
+            {
+                StartHp = StartHp + (PlayerPrefs.GetInt("CoinSnowFlake") / 10) * 10;
+            }           
+        }
+    }
 
     void Start()
     {
@@ -29,17 +47,38 @@ public class HpCount : MonoBehaviour
     {
         if (canTakeDMG)
         {
-            Hp -= amount; 
+            if(amount > Hp)
+            {
+                Hp = 0;
+            }
+            else
+            {
+                Hp -= amount; 
+            }
+            
+        }             
+    }
+
+    public void Healing(int amount)
+    {  
+        if(amount > StartHp - Hp)
+        {
+            Hp = StartHp;
+        }
+        else
+        {
+            Hp += amount;  
         }
               
     }
- 
+
     void Update()
     {
         healthBar.value = Hp;
         if (Hp <= Death)
         {
-            animationToChange.SetBool(NameParameterBool, true);           
+            animationToChange.SetBool(NameParameterBool, true);
         }
+        textHpCount.text = StartHp + " / " + Hp;
     }    
 }

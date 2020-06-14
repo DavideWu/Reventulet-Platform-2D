@@ -62,7 +62,6 @@ public class Ch_Control2d : MonoBehaviour
         {
             speed = startSpeed;
         }
-
     }
 
 }

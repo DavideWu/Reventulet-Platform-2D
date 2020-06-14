@@ -15,4 +15,10 @@ public class SaveGame : MonoBehaviour
     {
         PlayerPrefs.SetInt("DifficultyLv", LvDifficulty);
     }
+
+    public int snowFlakeCoin;
+    public void SnowFlakeCoin()
+    {
+        PlayerPrefs.SetInt("CoinSnowFlake", snowFlakeCoin);
+    }
 }
