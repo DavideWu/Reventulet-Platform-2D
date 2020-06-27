@@ -12,6 +12,10 @@ public class HpCount : MonoBehaviour
     public Slider healthBar;
     public bool canTakeDMG = true;
 
+    public GameObject DamageText;
+    public GameObject DamageCanvas;
+    public GameObject DamageSpwnZ;
+    private Text Damage;
     public Text textHpCount;
 
     public string NameParameterBool;
@@ -41,6 +45,7 @@ public class HpCount : MonoBehaviour
         Hp = StartHp;
         healthBar.maxValue = StartHp;
         healthBar.value = Hp;
+        Damage = DamageText.GetComponent<Text>();
     }
    
     public void TakeDamage(int amount)
@@ -55,7 +60,10 @@ public class HpCount : MonoBehaviour
             {
                 Hp -= amount; 
             }
-            
+            Damage.text = "" + amount;
+            Damage.color = Color.red;
+            DamageText.SetActive(true);
+            DamageCanvas.gameObject.transform.position = DamageSpwnZ.transform.position;
         }             
     }
 
@@ -69,7 +77,10 @@ public class HpCount : MonoBehaviour
         {
             Hp += amount;  
         }
-              
+        Damage.text = "" + amount;
+        Damage.color = Color.green;
+        DamageText.SetActive(true);
+        DamageCanvas.gameObject.transform.position = DamageSpwnZ.transform.position;
     }
 
     void Update()
@@ -80,5 +91,6 @@ public class HpCount : MonoBehaviour
             animationToChange.SetBool(NameParameterBool, true);
         }
         textHpCount.text = StartHp + " / " + Hp;
+        
     }    
 }

@@ -9,21 +9,21 @@ public class Ch_Control2d : MonoBehaviour
     private Rigidbody2D rb2d;
     [Range(0.1f , 2f)]
     public float groundDetectDist =0.5f;
-    public string jumpButton = "Jump";
-    public Transform groundedRay;
+    private Transform groundedRay;
 
-
-    private SpriteRenderer render;
+    private Animator anim;
     private float startSpeed;
+    private bool m_FacingRight = true;
 
     void Start()
     {
         startSpeed = speed;
-        render = GetComponent<SpriteRenderer>();
+        groundedRay = GetComponent<Transform>();
         rb2d = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
     }
 
-    public void jump ()
+    private void jump ()
     {
         RaycastHit2D grounded = Physics2D.Raycast(groundedRay.position, Vector2.down, groundDetectDist);
         if (grounded.collider != null)
@@ -33,34 +33,64 @@ public class Ch_Control2d : MonoBehaviour
 
     }
 
-    void FixedUpdate()
+    private void Flip()
     {
-        
-        float moveHorizontal = SimpleInput.GetAxis("Horizontal");
+        // Switch the way the player is labelled as facing.
+        m_FacingRight = !m_FacingRight;
 
-        float moveVertical = SimpleInput.GetAxis("Vertical");
+        // Multiply the player's x local scale by -1.
+        Vector3 theScale = transform.localScale;
+        theScale.x *= -1;
+        transform.localScale = theScale;
+    }
 
-        Vector2 movementH = new Vector2(moveHorizontal, moveVertical / 4);
-
-        rb2d.AddForce(movementH * speed);
-        
-        if (moveHorizontal < 0)
+    private void Update()
+    {
+        RaycastHit2D grounded = Physics2D.Raycast(groundedRay.position, Vector2.down, groundDetectDist);
+        if (grounded.collider != null)
         {
-            render.flipX = true;
-
-        }
-        else if (moveHorizontal > 0)
-        {
-            render.flipX = false;
-        }
-        
-        if(moveVertical < 0)
-        {
-            speed = speed / 2;
+            anim.SetBool("Grounded", true);
         }
         else
         {
-            speed = startSpeed;
+            anim.SetBool("Grounded", false);
+        }
+    }
+
+    void FixedUpdate()
+    {
+
+        float moveHorizontal = SimpleInput.GetAxis("Horizontal");
+
+        Vector2 movementH = new Vector2(moveHorizontal ,0);
+
+        rb2d.AddForce(movementH * speed);
+        if (moveHorizontal < 0 && m_FacingRight)
+        {
+            Flip();
+        }
+        else if (moveHorizontal > 0 && !m_FacingRight)
+        {
+            Flip();
+        }
+
+        if (moveHorizontal < 0)
+        {
+            anim.SetBool("H_Move", true);
+        }
+        else if (moveHorizontal > 0)
+        {
+            anim.SetBool("H_Move", true);
+        }
+        else
+        {
+            anim.SetBool("H_Move", false);
+        }
+
+        bool Jump = SimpleInput.GetButtonUp("Jump");
+        if (Jump)
+        {
+            jump();
         }
     }
 

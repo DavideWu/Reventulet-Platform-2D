@@ -58,19 +58,15 @@ public class Scatto : MonoBehaviour
         MelaSelvatica = true;
     }
 
-    public void sprint()
+    private void sprint()
     {
         if (cooldown <= 0.0f)
         {
             animationToChange.SetBool(NameParameterBool, true);
-            if (render.flipX == false)
-               {
-                rb2d.velocity = transform.TransformDirection(new Vector2(scattoF, 0f));
-               }
-               else
-               {
-                rb2d.velocity = transform.TransformDirection(new Vector2(scattoF - (scattoF * 2), 0f));
-               }
+            float moveHorizontal = SimpleInput.GetAxis("Horizontal");
+            Vector2 movementH = new Vector2(moveHorizontal, 0);
+            rb2d.AddForce(movementH * scattoF);
+             
             if (MelaSelvatica)
             {
                 cooldown = resetCooldown - 3;
@@ -79,6 +75,15 @@ public class Scatto : MonoBehaviour
             {
                 cooldown = resetCooldown;
             }
+        }
+    }
+
+    private void Update()
+    {
+        bool Sprint = SimpleInput.GetButtonUp("Fire1");
+        if (Sprint)
+        {
+            sprint();
         }
     }
     // Update is called once per frame

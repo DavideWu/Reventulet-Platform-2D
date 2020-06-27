@@ -19,7 +19,8 @@ public class ToggleAfterTime : MonoBehaviour
         timer += Time.deltaTime;
         if(timer > lifeTime)
         {
-           ObjectToToggle.SetActive(!ObjectToToggle.activeInHierarchy);
+           //ObjectToToggle.SetActive(!ObjectToToggle.activeInHierarchy);
+            ObjectToToggle.SetActive(false);
             timer = timer - lifeTime;
         }
 
