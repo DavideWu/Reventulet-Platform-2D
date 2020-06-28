@@ -25,16 +25,18 @@ public class Enemy_IA2d : MonoBehaviour
     private bool faceRight;
     private bool detectTarget;
     private bool randomTurnDecision;
-    public bool idleDecision;
+    private bool idleDecision;
     private Transform target;
     private SpriteRenderer render;
     private int RandomAction;
     private float timer;
+    private Animator Anim;
 
     void Start ()
     {
         render = GetComponent<SpriteRenderer>();
         target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
+        Anim = GetComponent<Animator>();
     }
 
     void Update()
@@ -82,6 +84,11 @@ public class Enemy_IA2d : MonoBehaviour
                     transform.position = Vector2.MoveTowards(transform.position, target.position, (speed - (speed * 2)) * Time.deltaTime);
                     render.flipX = true;
                     detectTarget = true;
+                    Anim.SetBool("Idle", false);
+                }
+                else
+                {
+                    Anim.SetBool("Idle", true);
                 }
             }
             else if (leftRay.collider != null && leftRay.collider.CompareTag("Player") && rightGrounded.collider == true && leftGrounded.collider == true)
@@ -91,19 +98,28 @@ public class Enemy_IA2d : MonoBehaviour
                     render.flipX = false;
                     transform.position = Vector2.MoveTowards(transform.position, target.position, (speed - (speed * 2)) * Time.deltaTime);
                     detectTarget = true;
+                    Anim.SetBool("Idle", false);
                 }
+                else
+                {
+                    Anim.SetBool("Idle", true);
+                }
+
             }
             else if (rightRay.collider != null && rightRay.collider.CompareTag("Player") && rightGrounded.collider == false)
             {
                 idleDecision = true;
+                Anim.SetBool("Idle", true);
             }
             else if (leftRay.collider != null && leftRay.collider.CompareTag("Player") && leftGrounded.collider == false)
             {
                 idleDecision = true;
+                Anim.SetBool("Idle", true);
             }
             else
             {
                 detectTarget = false;
+                Anim.SetBool("Idle", false);
             }
 
 
@@ -117,6 +133,11 @@ public class Enemy_IA2d : MonoBehaviour
                    transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
                    render.flipX = false;
                    detectTarget = true;
+                    Anim.SetBool("Idle", false);
+                }
+                else
+                {
+                    Anim.SetBool("Idle", true);
                 }
             }
             else if (leftRay.collider != null && leftRay.collider.CompareTag("Player") && rightGrounded.collider == true && leftGrounded.collider == true)
@@ -126,19 +147,27 @@ public class Enemy_IA2d : MonoBehaviour
                    render.flipX = true;
                    transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
                    detectTarget = true;
+                    Anim.SetBool("Idle", false);
+                }
+                else
+                {
+                    Anim.SetBool("Idle", true);
                 }
             }
             else if (rightRay.collider != null && rightRay.collider.CompareTag("Player") && rightGrounded.collider == false)
             {
                 idleDecision = true;
+                Anim.SetBool("Idle", true);
             }
             else if (leftRay.collider != null && leftRay.collider.CompareTag("Player") && leftGrounded.collider == false)
             {
                 idleDecision = true;
+                Anim.SetBool("Idle", true);
             }
             else
             {
                 detectTarget = false;
+                Anim.SetBool("Idle", false);
             }
 
         }

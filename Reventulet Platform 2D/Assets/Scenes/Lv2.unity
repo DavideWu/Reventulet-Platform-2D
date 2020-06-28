@@ -2663,7 +2663,7 @@ MonoBehaviour:
   actionOnDisable:
     m_PersistentCalls:
       m_Calls: []
-  targetTag: Enemy
+  targetTag: Player
 --- !u!61 &512543107
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3378,17 +3378,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
   actionExit:
     m_PersistentCalls:
       m_Calls: []
@@ -3398,7 +3387,7 @@ MonoBehaviour:
   actionOnDisable:
     m_PersistentCalls:
       m_Calls: []
-  targetTag: Enemy
+  targetTag: KillFloor
 --- !u!61 &638014905
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8934,7 +8923,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -10616,12 +10605,12 @@ PrefabInstance:
     - target: {fileID: 7946362730484552310, guid: 8ba4ee11948c58246b2ddf96132a1798,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.7
+      value: 279.9
       objectReference: {fileID: 0}
     - target: {fileID: 7946362730484552310, guid: 8ba4ee11948c58246b2ddf96132a1798,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3
+      value: -2.44
       objectReference: {fileID: 0}
     - target: {fileID: 7946362730484552310, guid: 8ba4ee11948c58246b2ddf96132a1798,
         type: 3}

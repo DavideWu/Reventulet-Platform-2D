@@ -80,7 +80,7 @@ public class Scatto : MonoBehaviour
 
     private void Update()
     {
-        bool Sprint = SimpleInput.GetButtonUp("Fire1");
+        bool Sprint = SimpleInput.GetButtonUp("Fire2");
         if (Sprint)
         {
             sprint();
