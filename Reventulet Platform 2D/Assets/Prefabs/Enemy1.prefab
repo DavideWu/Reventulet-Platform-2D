@@ -598,7 +598,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-  closeStopDist: 2.46
+  closeStopDist: 3.5
   rightRayStart: {fileID: 6023330998744391997}
   RayDist: 20
   leftRayStart: {fileID: 6023330998095660552}

@@ -85,6 +85,7 @@ public class Enemy_IA2d : MonoBehaviour
                     render.flipX = true;
                     detectTarget = true;
                     Anim.SetBool("Idle", false);
+                    Anim.SetBool("Run", true);
                 }
                 else
                 {
@@ -99,6 +100,7 @@ public class Enemy_IA2d : MonoBehaviour
                     transform.position = Vector2.MoveTowards(transform.position, target.position, (speed - (speed * 2)) * Time.deltaTime);
                     detectTarget = true;
                     Anim.SetBool("Idle", false);
+                    Anim.SetBool("Run", true);
                 }
                 else
                 {
@@ -120,6 +122,7 @@ public class Enemy_IA2d : MonoBehaviour
             {
                 detectTarget = false;
                 Anim.SetBool("Idle", false);
+                Anim.SetBool("Run", false);
             }
 
 
@@ -134,6 +137,7 @@ public class Enemy_IA2d : MonoBehaviour
                    render.flipX = false;
                    detectTarget = true;
                     Anim.SetBool("Idle", false);
+                    Anim.SetBool("Run", true);
                 }
                 else
                 {
@@ -148,6 +152,7 @@ public class Enemy_IA2d : MonoBehaviour
                    transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
                    detectTarget = true;
                     Anim.SetBool("Idle", false);
+                    Anim.SetBool("Run", true);
                 }
                 else
                 {
@@ -168,6 +173,7 @@ public class Enemy_IA2d : MonoBehaviour
             {
                 detectTarget = false;
                 Anim.SetBool("Idle", false);
+                Anim.SetBool("Run", false);
             }
 
         }
