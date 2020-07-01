@@ -1709,7 +1709,6 @@ GameObject:
   - component: {fileID: 7946362729998899466}
   - component: {fileID: 7946362729998899469}
   - component: {fileID: 7946362729998899468}
-  - component: {fileID: 9203815298744434311}
   m_Layer: 5
   m_Name: ButtonSprint
   m_TagString: Untagged
@@ -1815,22 +1814,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 7946362729998899469}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
---- !u!114 &9203815298744434311
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7946362729998899470}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 995f34434fbe45d46aacf4e120446279, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  button:
-    m_key: Fire2
-    value: 0
+      m_Calls:
+      - m_Target: {fileID: 7946362730715577734}
+        m_MethodName: sprint
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &7946362730048441421
 GameObject:
   m_ObjectHideFlags: 0

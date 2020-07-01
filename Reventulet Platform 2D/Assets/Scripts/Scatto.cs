@@ -46,7 +46,7 @@ public class Scatto : MonoBehaviour
         
         
             sliderCD.maxValue = cooldown;
-            sliderCD.value = cooldown;
+            sliderCD.value = 0;
             render = GetComponent<SpriteRenderer>();
             rb2d = GetComponent<Rigidbody2D>();
             resetCooldown = cooldown;
@@ -58,7 +58,7 @@ public class Scatto : MonoBehaviour
         MelaSelvatica = true;
     }
 
-    private void sprint()
+    public void sprint()
     {
         if (cooldown <= 0.0f)
         {
@@ -78,14 +78,7 @@ public class Scatto : MonoBehaviour
         }
     }
 
-    private void Update()
-    {
-        bool Sprint = SimpleInput.GetButtonUp("Fire2");
-        if (Sprint)
-        {
-            sprint();
-        }
-    }
+
     // Update is called once per frame
     void LateUpdate()
     {

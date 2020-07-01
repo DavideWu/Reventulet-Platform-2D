@@ -41,7 +41,7 @@ public class Ch_SkillsCDAnim_Control : MonoBehaviour
             if (IfItsLocked != null) IfItsLocked.Invoke();
         }
         sliderCD.maxValue = cooldown;
-        sliderCD.value = cooldown;
+        sliderCD.value = 0;
         resetCooldown = cooldown;
         AppleDurationReset = AppleDuration;
     }
