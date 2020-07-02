@@ -3030,7 +3030,7 @@ MonoBehaviour:
   action:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 168066602}
         m_MethodName: set_enabled
         m_Mode: 6
         m_Arguments:
@@ -5234,6 +5234,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 521965649}
     m_Modifications:
+    - target: {fileID: 3107823454028553262, guid: 8e5d097970540f2469a45f1e06c95d60,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3974314454518765068, guid: 8e5d097970540f2469a45f1e06c95d60,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5307,7 +5312,7 @@ PrefabInstance:
     - target: {fileID: 6023330998095660552, guid: 8e5d097970540f2469a45f1e06c95d60,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.7
+      value: -2.8400002
       objectReference: {fileID: 0}
     - target: {fileID: 6023330998391129060, guid: 8e5d097970540f2469a45f1e06c95d60,
         type: 3}
@@ -5317,7 +5322,12 @@ PrefabInstance:
     - target: {fileID: 6023330998744391997, guid: 8e5d097970540f2469a45f1e06c95d60,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.7000005
+      value: -2.84
+      objectReference: {fileID: 0}
+    - target: {fileID: 8072579177405364444, guid: 8e5d097970540f2469a45f1e06c95d60,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8204404744384774303, guid: 8e5d097970540f2469a45f1e06c95d60,
         type: 3}
@@ -5328,6 +5338,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Enemy1 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9059053878069734050, guid: 8e5d097970540f2469a45f1e06c95d60,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e5d097970540f2469a45f1e06c95d60, type: 3}
@@ -5612,7 +5627,7 @@ MonoBehaviour:
   action:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 168066602}
         m_MethodName: set_speed
         m_Mode: 4
         m_Arguments:
