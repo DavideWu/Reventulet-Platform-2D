@@ -779,6 +779,7 @@ GameObject:
   m_Component:
   - component: {fileID: 168066603}
   - component: {fileID: 168066602}
+  - component: {fileID: 168066604}
   m_Layer: 0
   m_Name: MoveLeftWorld
   m_TagString: Untagged
@@ -827,6 +828,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &168066604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 168066601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70af3659d40dd5240ae942c6469a6402, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &192926018 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3076138274386746799, guid: 223bf571783a40b4e9130e57b6b07571,
@@ -3017,7 +3030,7 @@ MonoBehaviour:
   action:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 168066602}
+      - m_Target: {fileID: 0}
         m_MethodName: set_enabled
         m_Mode: 6
         m_Arguments:
@@ -5599,7 +5612,7 @@ MonoBehaviour:
   action:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 168066602}
+      - m_Target: {fileID: 0}
         m_MethodName: set_speed
         m_Mode: 4
         m_Arguments:
@@ -7984,6 +7997,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_FillAmount
       value: 0.99
+      objectReference: {fileID: 0}
+    - target: {fileID: 7946362729635840648, guid: 8ba4ee11948c58246b2ddf96132a1798,
+        type: 3}
+      propertyPath: m_Color.a
+      value: 0.6392157
       objectReference: {fileID: 0}
     - target: {fileID: 7946362729635840651, guid: 8ba4ee11948c58246b2ddf96132a1798,
         type: 3}

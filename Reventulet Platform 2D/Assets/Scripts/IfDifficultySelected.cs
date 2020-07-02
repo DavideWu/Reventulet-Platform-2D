@@ -11,8 +11,8 @@ public class IfDifficultySelected : MonoBehaviour
     {
         if (PlayerPrefs.GetInt("DifficultyLv") > 0)
         {
-            objToActive.SetActive(!objToActive.activeInHierarchy);
-            objToDeactive.SetActive(!objToDeactive.activeInHierarchy);
+            objToActive.SetActive(true);
+            objToDeactive.SetActive(false);
         }
     }
 }
