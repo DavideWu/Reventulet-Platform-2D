@@ -45,6 +45,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04c716fe52389da4e9567baa2f4776bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ObjectToToggle: {fileID: 0}
 --- !u!114 &5453075578154293820
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -132,8 +133,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1443824005
-  m_SortingLayer: 2
+  m_SortingLayerID: -1907732421
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 1266c337160d96244ae0af08fe05f467, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -219,7 +220,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   targetTag: Player
-  CTime: 0.1
 --- !u!50 &5453075578226928462
 Rigidbody2D:
   serializedVersion: 4
