@@ -4308,11 +4308,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1504b1fa61f05114cb43f74b603402ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scattoF: 300
+  scattoF: 700
   sliderCD: {fileID: 7946362730690922515}
   cooldown: 2
   animationToChange: {fileID: 7946362730715577732}
-  NameParameterBool: Att
+  NameParameterBool: Sprint
   LvNeedToUnlock: 1
   IfItsLocked:
     m_PersistentCalls:

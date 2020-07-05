@@ -12,6 +12,8 @@ public class Scatto : MonoBehaviour
     private float resetCooldown;
     private Rigidbody2D rb2d;
     private SpriteRenderer render;
+    private bool m_FacingRight = true;
+    private bool anim = false;
 
     public Animator animationToChange;
     public string NameParameterBool;
@@ -63,10 +65,16 @@ public class Scatto : MonoBehaviour
         if (cooldown <= 0.0f)
         {
             animationToChange.SetBool(NameParameterBool, true);
-            float moveHorizontal = SimpleInput.GetAxis("Horizontal");
-            Vector2 movementH = new Vector2(moveHorizontal, 0);
-            rb2d.AddForce(movementH * scattoF);
-             
+            anim = true;
+            if (m_FacingRight == true)
+            {
+                rb2d.AddForce(new Vector2(scattoF, 0.1f));
+            }
+            else if (m_FacingRight == false)
+            {
+                rb2d.AddForce(new Vector2(scattoF - (scattoF * 2), 0.1f));
+            }
+
             if (MelaSelvatica)
             {
                 cooldown = resetCooldown - 3;
@@ -78,10 +86,29 @@ public class Scatto : MonoBehaviour
         }
     }
 
+    private void Flip()
+    {
+        // Switch the way the player is labelled as facing.
+        m_FacingRight = !m_FacingRight;
+    }
 
     // Update is called once per frame
     void LateUpdate()
     {
+        if (anim)
+        {
+            anim = false;
+            animationToChange.SetBool(NameParameterBool, false);
+        }
+        float moveHorizontal = SimpleInput.GetAxis("Horizontal");
+        if (moveHorizontal < 0 && m_FacingRight)
+        {
+            Flip();
+        }
+        else if (moveHorizontal > 0 && !m_FacingRight)
+        {
+            Flip();
+        }
         if (cooldown > 0.0f)
         {
             animationToChange.SetBool(NameParameterBool, false);
