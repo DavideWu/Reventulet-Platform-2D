@@ -58,3 +58,12 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+# FMOD 
+Audio_FMOD/.user/
+Audio_FMOD/.cache/
+Audio_FMOD/.unsaved/
+Assets/Plugins/FMOD/Resources/FMODStudioCache.asset
+
+
+
+

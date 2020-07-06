@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{2da9c6dd-94a7-452d-a46d-4aa6a35c1a4d}">
+		<property name="assetPath">
+			<value>Fox steps.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>13.358934240362812</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{01938688-bef0-4608-af8b-020881222f92}</destination>
+		</relationship>
+	</object>
+</objects>
