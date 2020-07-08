@@ -21,4 +21,10 @@ public class SaveGame : MonoBehaviour
     {
         PlayerPrefs.SetInt("CoinSnowFlake", snowFlakeCoin);
     }
+
+    private int Fire = 12;
+    public void fire()
+    {
+        PlayerPrefs.SetInt("Fire", Fire);
+    }
 }
