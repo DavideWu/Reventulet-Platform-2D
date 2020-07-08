@@ -11,7 +11,7 @@ public class Ch_SkillsCDAnim_Control : MonoBehaviour
     private float resetCooldown;
     public Animator animationToChange;
     public string NameParameterBool;
-
+    private bool anim = false;
     public int LvNeedToUnlock;
     public UnityEvent IfItsLocked;
     private bool MelaSelvatica;
@@ -56,6 +56,7 @@ public class Ch_SkillsCDAnim_Control : MonoBehaviour
         if (cooldown <= 0.0f)
         {
              animationToChange.SetBool(NameParameterBool, true);
+            anim = true;
             if (MelaSelvatica)
             {
                 cooldown = resetCooldown - 3;
@@ -83,6 +84,11 @@ public class Ch_SkillsCDAnim_Control : MonoBehaviour
                 MelaSelvatica = false;
                 AppleDuration = AppleDurationReset;
             }
+        }
+        if (anim)
+        {
+            anim = false;
+            animationToChange.SetBool(NameParameterBool, false);
         }
     }
 }
