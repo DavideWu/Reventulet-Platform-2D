@@ -17,7 +17,75 @@ MonoBehaviour:
   lastModified: 637296547077134063
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
+--- !u!114 &-8886060892373194830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Buttons/new game button
+  m_EditorClassIdentifier: 
+  Path: event:/Buttons/new game button
+  guid: 24a933582876ce48b763cad66ef30d81
+  Banks:
+  - {fileID: -2645186963711154852}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4328
+--- !u!114 &-8759003744600406239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/One shot/kettu bite
+  m_EditorClassIdentifier: 
+  Path: event:/One shot/kettu bite
+  guid: 122e3c95edb63a418f63a50333e85e52
+  Banks:
+  - {fileID: -2645186963711154852}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 313
+--- !u!114 &-6108347113882166497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/snow flake picked
+  m_EditorClassIdentifier: 
+  Path: event:/snow flake picked
+  guid: 00ec40b07d98314fbea6fde95d6b6aef
+  Banks: []
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1900
 --- !u!114 &-5307616364843156070
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36,6 +104,29 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-4509357480650053703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/One shot/teleport
+  m_EditorClassIdentifier: 
+  Path: event:/One shot/teleport
+  guid: ff4dced5a760e94aa8dc9fd6c5e78e16
+  Banks:
+  - {fileID: -2645186963711154852}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
 --- !u!114 &-4440332279903804617
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54,6 +145,29 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-3661174065477270525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/One shot/snow flake picked
+  m_EditorClassIdentifier: 
+  Path: event:/One shot/snow flake picked
+  guid: 00ec40b07d98314fbea6fde95d6b6aef
+  Banks:
+  - {fileID: -2645186963711154852}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1900
 --- !u!114 &-2880950557339844096
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -72,6 +186,70 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-2645186963711154852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Audio_FMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637298326554766442
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-1420002349365392751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/One shot/enemy bite
+  m_EditorClassIdentifier: 
+  Path: event:/One shot/enemy bite
+  guid: 46f5d0825f076249bd54d2dd0f46bd49
+  Banks:
+  - {fileID: -2645186963711154852}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 313
+--- !u!114 &-1011934938925555356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/One shot/kettu hurt
+  m_EditorClassIdentifier: 
+  Path: event:/One shot/kettu hurt
+  guid: a4b5d0b70f3493469355ed08bf6eec68
+  Banks:
+  - {fileID: -2645186963711154852}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2129
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -86,17 +264,138 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: 3242276940843155638}
-  - {fileID: -8932908485837748761}
+  - {fileID: -2645186963711154852}
   EditorEvents:
   - {fileID: 3617722112043507061}
-  - {fileID: 6804535475038763792}
+  - {fileID: -3661174065477270525}
+  - {fileID: 362134241364132269}
+  - {fileID: -8759003744600406239}
+  - {fileID: -8886060892373194830}
+  - {fileID: 2505829036073001778}
+  - {fileID: -1420002349365392751}
+  - {fileID: 170885544668098627}
+  - {fileID: 4964105643310364378}
+  - {fileID: 5671599434201171343}
+  - {fileID: -1011934938925555356}
+  - {fileID: 2176314375518232726}
+  - {fileID: -4509357480650053703}
   EditorParameters: []
   MasterBanks:
-  - {fileID: -8932908485837748761}
+  - {fileID: -2645186963711154852}
   StringsBanks:
   - {fileID: 3242276940843155638}
-  stringsBankWriteTime: 637296547077203872
+  stringsBankWriteTime: 637298326555454775
   cacheVersion: 3
+--- !u!114 &170885544668098627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Boss fight
+  m_EditorClassIdentifier: 
+  Path: event:/Boss fight
+  guid: 7bf5847bc4690844b13913afca52fb07
+  Banks:
+  - {fileID: -2645186963711154852}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 30000
+--- !u!114 &362134241364132269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/2D AMBIENCE/level 5 ambience snow
+  m_EditorClassIdentifier: 
+  Path: event:/2D AMBIENCE/level 5 ambience snow
+  guid: 010a48dc45e01e429cdb4088ab5f6eda
+  Banks:
+  - {fileID: -2645186963711154852}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 126870
+--- !u!114 &714420803369981809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Audio_FMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637298293985140576
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &2176314375518232726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/2D AMBIENCE/level 3 ambience night forest
+  m_EditorClassIdentifier: 
+  Path: event:/2D AMBIENCE/level 3 ambience night forest
+  guid: fa3f0b6341b609439888025f29446d11
+  Banks:
+  - {fileID: -2645186963711154852}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 70000
+--- !u!114 &2505829036073001778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/One shot/talisman picked
+  m_EditorClassIdentifier: 
+  Path: event:/One shot/talisman picked
+  guid: 433346da652b2a479c14f09394454fe2
+  Banks:
+  - {fileID: -2645186963711154852}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 8979
 --- !u!114 &3242276940843155638
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -111,11 +410,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: Audio_FMOD/Build/Desktop/Master.strings.bank
   SubDir: 
-  lastModified: 637296547077203872
+  lastModified: 637298326555454775
   LoadResult: 0
   FileSizes:
   - Name: 
-    Value: 820
+    Value: 1388
   Exists: 1
 --- !u!114 &3617722112043507061
 MonoBehaviour:
@@ -132,7 +431,7 @@ MonoBehaviour:
   Path: event:/3D EVENTS/Fox steps
   guid: 563ca41a5730814b9fcc86e5b8048399
   Banks:
-  - {fileID: -8932908485837748761}
+  - {fileID: -2645186963711154852}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
@@ -140,6 +439,52 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 13358
+--- !u!114 &4964105643310364378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/One shot/sprint
+  m_EditorClassIdentifier: 
+  Path: event:/One shot/sprint
+  guid: 7d2c3ea756b2bb488212766e83792dec
+  Banks:
+  - {fileID: -2645186963711154852}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1146
+--- !u!114 &5671599434201171343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SOUNDTRACK/title screen
+  m_EditorClassIdentifier: 
+  Path: event:/SOUNDTRACK/title screen
+  guid: 96ec21997a64e64096aa2992742a04a3
+  Banks:
+  - {fileID: -2645186963711154852}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 27428
 --- !u!114 &6804535475038763792
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -154,8 +499,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/05_11SecClub_November_Competition
   guid: bf8781c5749e154e8ce57944bfbb0e28
-  Banks:
-  - {fileID: -8932908485837748761}
+  Banks: []
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
