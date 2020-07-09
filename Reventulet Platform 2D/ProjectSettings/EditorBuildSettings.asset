@@ -33,6 +33,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Lv5.unity
     guid: 2f3927aec59beae419aba2cdd4eecce3
   - enabled: 1
-    path: Assets/Scenes/Scene5NewGame.unity
+    path: Assets/Sprites/Images/Scene5NewGame.unity
     guid: a21c151e8f04f8145b90c0ceb5ba151d
   m_configObjects: {}

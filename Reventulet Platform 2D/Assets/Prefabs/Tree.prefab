@@ -61,6 +61,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8026162031957335716}
   - component: {fileID: 8026162031957335719}
+  - component: {fileID: 4017644748167847501}
   m_Layer: 0
   m_Name: object_forest_c4_14 (13)
   m_TagString: Untagged
@@ -132,3 +133,16 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &4017644748167847501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8026162031957335717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d0f1a73c06b93546a859862cbab709a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RenderDist: 40

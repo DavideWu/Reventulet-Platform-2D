@@ -45,6 +45,7 @@ GameObject:
   - component: {fileID: 8561745188536097062}
   - component: {fileID: 8561745188536097063}
   - component: {fileID: 2166449682061629464}
+  - component: {fileID: 8936169874892450014}
   m_Layer: 0
   m_Name: object_forest_c4_03
   m_TagString: Untagged
@@ -197,3 +198,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pushV: 5
   pushH: 0
+--- !u!114 &8936169874892450014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8561745188536097049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d0f1a73c06b93546a859862cbab709a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RenderDist: 20
