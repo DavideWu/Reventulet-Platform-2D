@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: PlayerDeath
+  m_Name: PlayerSlow
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -21,35 +21,44 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.8666667
-        value: 1
-        inSlope: Infinity
-        outSlope: Infinity
-        tangentMode: 103
+        time: 0
+        value: 5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
         weightedMode: 0
-        inWeight: 0
-        outWeight: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.9166667
-        value: 1
-        inSlope: Infinity
-        outSlope: Infinity
-        tangentMode: 103
+        time: 10
+        value: 5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
         weightedMode: 0
-        inWeight: 0
-        outWeight: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_IsActive
-    path: CanvasGameOver/PanelGameOver
-    classID: 1
-    script: {fileID: 0}
+    attribute: speed
+    path: Player
+    classID: 114
+    script: {fileID: 11500000, guid: 488a153802b18494cab10e99077acec8, type: 3}
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 10
         value: 0
         inSlope: Infinity
         outSlope: Infinity
@@ -60,28 +69,11 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_Enabled
-    path: 
-    classID: 114
-    script: {fileID: 11500000, guid: 488a153802b18494cab10e99077acec8, type: 3}
-  m_PPtrCurves:
-  - curve:
-    - time: 0
-      value: {fileID: 21300000, guid: e496b26278d2962478a11e7e6aa356a9, type: 3}
-    - time: 0.2
-      value: {fileID: 21300000, guid: c84d6c51adace8242bec4c4308d6b394, type: 3}
-    - time: 0.53333336
-      value: {fileID: 21300000, guid: 730e65db270a45346918d3f75b33e0b5, type: 3}
-    - time: 0.6666667
-      value: {fileID: 21300000, guid: 5e1092b1c8518ca48bde02dd3a04764f, type: 3}
-    - time: 0.8666667
-      value: {fileID: 21300000, guid: c84d6c51adace8242bec4c4308d6b394, type: 3}
-    - time: 1
-      value: {fileID: 21300000, guid: 368e092271caf4345a1c907f972cb73f, type: 3}
-    attribute: m_Sprite
-    path: 
-    classID: 212
+    attribute: m_IsActive
+    path: Player/HurtCollider/Particle System (Slow)
+    classID: 1
     script: {fileID: 0}
+  m_PPtrCurves: []
   m_SampleRate: 60
   m_WrapMode: 0
   m_Bounds:
@@ -90,45 +82,32 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
-      path: 573391375
+      path: 1096241863
       attribute: 2086281974
       script: {fileID: 0}
       typeID: 1
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 0
-      attribute: 3305885265
+      path: 2679471955
+      attribute: 254213878
       script: {fileID: 11500000, guid: 488a153802b18494cab10e99077acec8, type: 3}
       typeID: 114
-      customType: 24
+      customType: 0
       isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 0
-      attribute: 0
-      script: {fileID: 0}
-      typeID: 212
-      customType: 23
-      isPPtrCurve: 1
-    pptrCurveMapping:
-    - {fileID: 21300000, guid: e496b26278d2962478a11e7e6aa356a9, type: 3}
-    - {fileID: 21300000, guid: c84d6c51adace8242bec4c4308d6b394, type: 3}
-    - {fileID: 21300000, guid: 730e65db270a45346918d3f75b33e0b5, type: 3}
-    - {fileID: 21300000, guid: 5e1092b1c8518ca48bde02dd3a04764f, type: 3}
-    - {fileID: 21300000, guid: c84d6c51adace8242bec4c4308d6b394, type: 3}
-    - {fileID: 21300000, guid: 368e092271caf4345a1c907f972cb73f, type: 3}
+    pptrCurveMapping: []
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 1.0166667
+    m_StopTime: 10
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
     m_HasAdditiveReferencePose: 0
-    m_LoopTime: 0
-    m_LoopBlend: 1
+    m_LoopTime: 1
+    m_LoopBlend: 0
     m_LoopBlendOrientation: 0
     m_LoopBlendPositionY: 0
     m_LoopBlendPositionXZ: 0
@@ -142,35 +121,44 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.8666667
-        value: 1
-        inSlope: Infinity
-        outSlope: Infinity
-        tangentMode: 103
+        time: 0
+        value: 5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
         weightedMode: 0
-        inWeight: 0
-        outWeight: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.9166667
-        value: 1
-        inSlope: Infinity
-        outSlope: Infinity
-        tangentMode: 103
+        time: 10
+        value: 5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
         weightedMode: 0
-        inWeight: 0
-        outWeight: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_IsActive
-    path: CanvasGameOver/PanelGameOver
-    classID: 1
-    script: {fileID: 0}
+    attribute: speed
+    path: Player
+    classID: 114
+    script: {fileID: 11500000, guid: 488a153802b18494cab10e99077acec8, type: 3}
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 10
         value: 0
         inSlope: Infinity
         outSlope: Infinity
@@ -181,10 +169,10 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_Enabled
-    path: 
-    classID: 114
-    script: {fileID: 11500000, guid: 488a153802b18494cab10e99077acec8, type: 3}
+    attribute: m_IsActive
+    path: Player/HurtCollider/Particle System (Slow)
+    classID: 1
+    script: {fileID: 0}
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
