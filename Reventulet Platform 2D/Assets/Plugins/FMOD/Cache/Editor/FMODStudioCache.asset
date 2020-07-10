@@ -33,7 +33,7 @@ MonoBehaviour:
   Path: event:/Buttons/new game button
   guid: 24a933582876ce48b763cad66ef30d81
   Banks:
-  - {fileID: 5518809316023675580}
+  - {fileID: 1231487935122590457}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -56,7 +56,7 @@ MonoBehaviour:
   Path: event:/One shot/kettu bite
   guid: 122e3c95edb63a418f63a50333e85e52
   Banks:
-  - {fileID: 5518809316023675580}
+  - {fileID: 1231487935122590457}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -119,7 +119,7 @@ MonoBehaviour:
   Path: event:/One shot/teleport
   guid: ff4dced5a760e94aa8dc9fd6c5e78e16
   Banks:
-  - {fileID: 5518809316023675580}
+  - {fileID: 1231487935122590457}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -160,7 +160,7 @@ MonoBehaviour:
   Path: event:/One shot/snow flake picked
   guid: 00ec40b07d98314fbea6fde95d6b6aef
   Banks:
-  - {fileID: 5518809316023675580}
+  - {fileID: 1231487935122590457}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -237,7 +237,7 @@ MonoBehaviour:
   Path: event:/One shot/enemy bite
   guid: 46f5d0825f076249bd54d2dd0f46bd49
   Banks:
-  - {fileID: 5518809316023675580}
+  - {fileID: 1231487935122590457}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -260,7 +260,7 @@ MonoBehaviour:
   Path: event:/One shot/kettu hurt
   guid: a4b5d0b70f3493469355ed08bf6eec68
   Banks:
-  - {fileID: 5518809316023675580}
+  - {fileID: 1231487935122590457}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -282,7 +282,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: 3242276940843155638}
-  - {fileID: 5518809316023675580}
+  - {fileID: 1231487935122590457}
   EditorEvents:
   - {fileID: 3617722112043507061}
   - {fileID: -3661174065477270525}
@@ -300,10 +300,10 @@ MonoBehaviour:
   - {fileID: 6194630765684892126}
   EditorParameters: []
   MasterBanks:
-  - {fileID: 5518809316023675580}
+  - {fileID: 1231487935122590457}
   StringsBanks:
   - {fileID: 3242276940843155638}
-  stringsBankWriteTime: 637299788308907570
+  stringsBankWriteTime: 637299794291478440
   cacheVersion: 3
 --- !u!114 &170885544668098627
 MonoBehaviour:
@@ -320,7 +320,7 @@ MonoBehaviour:
   Path: event:/Boss fight
   guid: cb38ff5525ab67479b0081514ed098d0
   Banks:
-  - {fileID: 5518809316023675580}
+  - {fileID: 1231487935122590457}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
@@ -343,7 +343,7 @@ MonoBehaviour:
   Path: event:/2D AMBIENCE/level 5 ambience snow
   guid: 010a48dc45e01e429cdb4088ab5f6eda
   Banks:
-  - {fileID: 5518809316023675580}
+  - {fileID: 1231487935122590457}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -369,6 +369,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &1231487935122590457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Audio_FMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637299794290949580
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &1324969063587265475
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -402,7 +420,7 @@ MonoBehaviour:
   Path: event:/2D AMBIENCE/level 3 ambience night forest
   guid: fa3f0b6341b609439888025f29446d11
   Banks:
-  - {fileID: 5518809316023675580}
+  - {fileID: 1231487935122590457}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -425,7 +443,7 @@ MonoBehaviour:
   Path: event:/One shot/talisman picked
   guid: 433346da652b2a479c14f09394454fe2
   Banks:
-  - {fileID: 5518809316023675580}
+  - {fileID: 1231487935122590457}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -447,7 +465,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: Audio_FMOD/Build/Desktop/Master.strings.bank
   SubDir: 
-  lastModified: 637299788308907570
+  lastModified: 637299794291478440
   LoadResult: 0
   FileSizes:
   - Name: 
@@ -468,7 +486,7 @@ MonoBehaviour:
   Path: event:/3D EVENTS/Fox steps
   guid: 563ca41a5730814b9fcc86e5b8048399
   Banks:
-  - {fileID: 5518809316023675580}
+  - {fileID: 1231487935122590457}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
@@ -491,7 +509,7 @@ MonoBehaviour:
   Path: event:/One shot/sprint
   guid: 7d2c3ea756b2bb488212766e83792dec
   Banks:
-  - {fileID: 5518809316023675580}
+  - {fileID: 1231487935122590457}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -516,7 +534,7 @@ MonoBehaviour:
   lastModified: 637299788308408669
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
 --- !u!114 &5671599434201171343
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -532,7 +550,7 @@ MonoBehaviour:
   Path: event:/SOUNDTRACK/title screen
   guid: 96ec21997a64e64096aa2992742a04a3
   Banks:
-  - {fileID: 5518809316023675580}
+  - {fileID: 1231487935122590457}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -555,7 +573,7 @@ MonoBehaviour:
   Path: event:/One shot/kettu jump
   guid: 5d03b8a648b701469fd75810c5b839ae
   Banks:
-  - {fileID: 5518809316023675580}
+  - {fileID: 1231487935122590457}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
