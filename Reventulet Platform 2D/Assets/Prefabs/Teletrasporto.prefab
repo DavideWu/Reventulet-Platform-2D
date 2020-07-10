@@ -97,7 +97,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d0f1a73c06b93546a859862cbab709a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RenderDist: 40
+  RenderDist: 20
 --- !u!61 &2650361210911007435
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -122,7 +122,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.03, y: 2.22}
+  m_Size: {x: 2.1, y: 2.3}
   m_EdgeRadius: 0
 --- !u!114 &1793859542400474890
 MonoBehaviour:
@@ -171,6 +171,8 @@ GameObject:
   - component: {fileID: 4716904670569936673}
   - component: {fileID: 4716904670569936686}
   - component: {fileID: 4716904670569936687}
+  - component: {fileID: 3198191924581969684}
+  - component: {fileID: 5855502611271806076}
   m_Layer: 0
   m_Name: object_forest_c4_11
   m_TagString: Untagged
@@ -231,3 +233,65 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   whiteHole: {fileID: 0}
+--- !u!61 &3198191924581969684
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4716904670569936674}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.03, y: 2.22}
+    newSize: {x: 2.03, y: 2.22}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.1, y: 2.3}
+  m_EdgeRadius: 0
+--- !u!114 &5855502611271806076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4716904670569936674}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5395425f8ccee84d96483ac49fb335b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  action:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_MethodName: set_speed
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 5
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  actionExit:
+    m_PersistentCalls:
+      m_Calls: []
+  actionOnEnable:
+    m_PersistentCalls:
+      m_Calls: []
+  actionOnDisable:
+    m_PersistentCalls:
+      m_Calls: []
+  targetTag: Player
