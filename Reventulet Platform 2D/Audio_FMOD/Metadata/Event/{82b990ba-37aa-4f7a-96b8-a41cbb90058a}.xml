@@ -8,7 +8,7 @@
 			<value>2</value>
 		</property>
 		<relationship name="folder">
-			<destination>{a7ae4114-50c7-495e-8801-e38d12891a2d}</destination>
+			<destination>{d4fd3d70-787f-4631-ad37-eb4b55ec2050}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{ac3cdd63-628b-444c-80c2-771ddff1a21f}</destination>
@@ -90,7 +90,7 @@
 	<object class="MixerBusPanner" id="{358a2e83-7c0c-42d6-82fe-57ddec906568}" />
 	<object class="MultiSound" id="{adc0b21d-69dc-4d71-9e34-219d1407f998}">
 		<property name="length">
-			<value>0.33000000000000002</value>
+			<value>0.36499999999999999</value>
 		</property>
 		<relationship name="sounds">
 			<destination>{0f3fb82f-3b88-45d3-9724-5ae0d5878495}</destination>
