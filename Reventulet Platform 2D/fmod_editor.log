@@ -7,7 +7,7 @@
 [LOG] OutputWASAPI::init                       : Output buffer size: 4096 samples, latency: 0.00ms, period: 10.00ms, DSP buffer: 1024 * 4
 [LOG] Thread::initThread                       : Init FMOD stream thread. Priority: 2, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Priority: 3, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 0000021B0169C6F8 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 0000021AB5655DB8 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Priority: 0, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
@@ -18,59 +18,3 @@
 [LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 125)
 [LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 125)
 [LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
-[LOG] SoundI::release                          :  (0000021AB4D67748)
-[LOG] SoundI::release                          :     snow flake picked (0000021AFE49BE58)
-[LOG] SoundI::release                          :  (0000021AB4D67188)
-[LOG] SoundI::release                          :     new game button (0000021B21E583F8)
-[LOG] SoundI::release                          :  (0000021AB4D675D8)
-[LOG] SoundI::release                          :     yes & no button (0000021B21FD5248)
-[LOG] SoundI::release                          :  (0000021AB4D647D8)
-[LOG] SoundI::release                          :     jump2 (0000021AFE49BCB8)
-[LOG] SoundI::release                          :  (0000021AB4D67018)
-[LOG] SoundI::release                          :     talisman picked (0000021B21E58258)
-[LOG] SoundI::release                          :  (0000021AB4D67A28)
-[LOG] SoundI::release                          :     enemy bite (0000021AFE49C4D8)
-[LOG] SoundI::release                          :  (0000021AFF34DA58)
-[LOG] SoundI::release                          :     Fox steps_06 (0000021B21FD5588)
-[LOG] SoundI::release                          :  (0000021AB4D65BF8)
-[LOG] SoundI::release                          :     Fox steps_08 (0000021AFE49C198)
-[LOG] SoundI::release                          :  (0000021AB4D66BC8)
-[LOG] SoundI::release                          :     Fox steps_09 (0000021AFE49B978)
-[LOG] SoundI::release                          :  (0000021AB4D640A8)
-[LOG] SoundI::release                          :     Fox steps_10 (0000021B21E57F18)
-[LOG] SoundI::release                          :  (0000021AB4D66328)
-[LOG] SoundI::release                          :     kettu jump (0000021AFE49BFF8)
-[LOG] SoundI::release                          :  (0000021AB4D67468)
-[LOG] SoundI::release                          :     sprint (0000021AFE49BB18)
-[LOG] SoundI::release                          :  (0000021AB4D64218)
-[LOG] SoundI::release                          :     kettu hurt (0000021AB53B9F28)
-[LOG] SoundI::release                          : Fox steps_02.wav (0000021AB53BA268)
-[LOG] SoundI::release                          : Fox steps_03.wav (0000021AB53B9BE8)
-[LOG] SoundI::release                          : Fox steps_04.wav (0000021AB53BA408)
-[LOG] SoundI::release                          : Fox steps_05.wav (0000021AB53BA5A8)
-[LOG] SoundI::release                          :  (0000021AB4D654C8)
-[LOG] SoundI::release                          :     difficulty selection button (0000021B21FD53E8)
-[LOG] SoundI::release                          :  (0000021AB4D668E8)
-[LOG] SoundI::release                          :     fox bark 2_03 (0000021B21E57898)
-[LOG] SoundI::release                          :  (0000021AB4D672F8)
-[LOG] SoundI::release                          :     fox bark 2_0101 (0000021B21E57A38)
-[LOG] SoundI::release                          :  (0000021AB4D65638)
-[LOG] SoundI::release                          :     fox bark 2_02 (0000021B21E57D78)
-[LOG] SoundI::release                          :  (0000021AB4D65A88)
-[LOG] SoundI::release                          :     fireball (0000021B21E58598)
-[LOG] SoundI::release                          :  (0000021AFF34D048)
-[LOG] SoundI::release                          :     teleport2 (0000021B21FD50A8)
-[LOG] Thread::callback                         : FMOD Studio update thread finished.
-[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
-[LOG] ProfileClient::markForDead               : Closing client connection
-[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
-[LOG] FMOD_OS_Net_Read                         : Interrupted.[LOG] Thread::callback                         : FMOD profiler thread (send) finished.
-[LOG] ProfileClient::recvThreadLoopFunction    : Socket disconnected
-[LOG] Thread::callback                         : FMOD profiler thread (recv) finished.
-[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
-[LOG] LiveUpdate::release                      : 
-[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
-[LOG] Thread::callback                         : FMOD stream thread finished.
-[LOG] Thread::callback                         : FMOD mixer thread finished.
-[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
-[LOG] SystemI::close                           : Closed.
