@@ -4798,7 +4798,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: 
-  Event: event:/One shot/kettu jump
+  Event: event:/One shot/jump2
   PlayEvent: 11
   StopEvent: 12
   AllowFadeout: 1
@@ -25600,7 +25600,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: 
-  Event: 
+  Event: event:/kettu steps
   PlayEvent: 11
   StopEvent: 12
   AllowFadeout: 1
@@ -25608,8 +25608,8 @@ MonoBehaviour:
   Preload: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: -1
-  OverrideMaxDistance: -1
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &4739410579173076215
 GameObject:
   m_ObjectHideFlags: 0
