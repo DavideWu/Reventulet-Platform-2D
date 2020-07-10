@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{858d0f70-4bb7-4ba1-8059-4248a181e9a9}">
+		<property name="assetPath">
+			<value>fox bark 2_0101.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.58970833333333328</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{01938688-bef0-4608-af8b-020881222f92}</destination>
+		</relationship>
+	</object>
+</objects>
