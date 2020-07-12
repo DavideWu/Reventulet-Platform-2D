@@ -241,4 +241,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LvNeedToUnlock: 0
   ScenesName: Scene4SelectLvScenes
-  afterTime: 1
+  afterTime: 3
