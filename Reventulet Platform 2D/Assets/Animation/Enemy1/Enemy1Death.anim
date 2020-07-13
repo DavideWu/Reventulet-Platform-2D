@@ -40,25 +40,6 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 3
-        value: 1
-        inSlope: Infinity
-        outSlope: Infinity
-        tangentMode: 103
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_Enabled
-    path: HurtBox/GameObject
-    classID: 114
-    script: {fileID: 11500000, guid: 3bcfbef3b2dc0d042bc82df7e41380fc, type: 3}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
         time: 1.9833333
         value: 1
         inSlope: 0
@@ -124,15 +105,13 @@ AnimationClip:
   - curve:
     - time: 0
       value: {fileID: 21300000, guid: 32139b26cb8a1f941b295d299e74b9f8, type: 3}
-    - time: 0.16666667
+    - time: 0.18333334
       value: {fileID: 21300000, guid: b78aafa27b985d44fbe61a68b50e66a4, type: 3}
     - time: 0.33333334
       value: {fileID: 21300000, guid: bc97caf2ae5d9da47affe4c76f13e4fe, type: 3}
     - time: 0.48333332
       value: {fileID: 21300000, guid: 265789825a7bf244889bbda514bdae23, type: 3}
     - time: 0.8333333
-      value: {fileID: 21300000, guid: 2b37abd399810bd4a937ff0ffd35124d, type: 3}
-    - time: 0.9166667
       value: {fileID: 21300000, guid: 2b37abd399810bd4a937ff0ffd35124d, type: 3}
     attribute: m_Sprite
     path: 
@@ -149,13 +128,6 @@ AnimationClip:
       path: 428682174
       attribute: 3305885265
       script: {fileID: 11500000, guid: 2410ad7444e6159408b8d1e7d7730147, type: 3}
-      typeID: 114
-      customType: 24
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 2341534248
-      attribute: 3305885265
-      script: {fileID: 11500000, guid: 3bcfbef3b2dc0d042bc82df7e41380fc, type: 3}
       typeID: 114
       customType: 24
       isPPtrCurve: 0
@@ -185,7 +157,6 @@ AnimationClip:
     - {fileID: 21300000, guid: b78aafa27b985d44fbe61a68b50e66a4, type: 3}
     - {fileID: 21300000, guid: bc97caf2ae5d9da47affe4c76f13e4fe, type: 3}
     - {fileID: 21300000, guid: 265789825a7bf244889bbda514bdae23, type: 3}
-    - {fileID: 21300000, guid: 2b37abd399810bd4a937ff0ffd35124d, type: 3}
     - {fileID: 21300000, guid: 2b37abd399810bd4a937ff0ffd35124d, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
@@ -227,25 +198,6 @@ AnimationClip:
     path: HurtBox
     classID: 114
     script: {fileID: 11500000, guid: 2410ad7444e6159408b8d1e7d7730147, type: 3}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 3
-        value: 1
-        inSlope: Infinity
-        outSlope: Infinity
-        tangentMode: 103
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_Enabled
-    path: HurtBox/GameObject
-    classID: 114
-    script: {fileID: 11500000, guid: 3bcfbef3b2dc0d042bc82df7e41380fc, type: 3}
   - curve:
       serializedVersion: 2
       m_Curve:
