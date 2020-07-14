@@ -53,8 +53,6 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
-    - UnityEditor.Tilemaps.GridPaletteBrushes
-    - UnityEditor.Tilemaps.GridPalettes
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.TileDragAndDropManager
     Unity.Rider.Editor.dll:
@@ -253,9 +251,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12084}
     - Class: 114
+      Script: {instanceID: 12234}
+    - Class: 114
       Script: {instanceID: 12330}
     - Class: 114
       Script: {instanceID: 12378}
+    - Class: 114
+      Script: {instanceID: 12426}
     - Class: 114
       Script: {instanceID: 12432}
     - Class: 114
@@ -268,6 +270,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 12762}
     - Class: 114
       Script: {instanceID: 12940}
+    - Class: 114
+      Script: {instanceID: 12968}
     - Class: 114
       Script: {instanceID: 13072}
     - Class: 114
@@ -297,7 +301,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 15076}
     - Class: 114
-      Script: {instanceID: 23490}
+      Script: {instanceID: 22508}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -756,6 +760,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11696}
     - Class: 114
+      Script: {instanceID: 11924}
+    - Class: 114
       Script: {instanceID: 12472}
     - Class: 114
       Script: {instanceID: 13318}
@@ -947,6 +953,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12378}
     - Class: 114
+      Script: {instanceID: 12426}
+    - Class: 114
       Script: {instanceID: 12432}
     - Class: 114
       Script: {instanceID: 12472}
@@ -960,6 +968,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 12940}
     - Class: 114
       Script: {instanceID: 12944}
+    - Class: 114
+      Script: {instanceID: 12968}
     - Class: 114
       Script: {instanceID: 13072}
     - Class: 114
