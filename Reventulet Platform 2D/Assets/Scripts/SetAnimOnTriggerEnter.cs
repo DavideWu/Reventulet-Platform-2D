@@ -9,7 +9,7 @@ public class SetAnimOnTriggerEnter : MonoBehaviour
 
     void Start()
     {
-        animationToChange = GetComponent<Animator>();
+        
     }
 
     private void OnTriggerStay2D(Collider2D other)

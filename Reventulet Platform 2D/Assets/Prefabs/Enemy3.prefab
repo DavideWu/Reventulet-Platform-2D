@@ -533,7 +533,6 @@ GameObject:
   - component: {fileID: 3185272941022966884}
   - component: {fileID: 8204404744384774303}
   - component: {fileID: 7153813229731618974}
-  - component: {fileID: 6606944880736763282}
   m_Layer: 0
   m_Name: HurtBox
   m_TagString: Enemy
@@ -617,20 +616,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lifeTime: 1
   ObjectToToggle: {fileID: 9059053878069734050}
---- !u!114 &6606944880736763282
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3634721950979032674}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2378b46a75ade9c42a0fb77476c11f99, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animationToChange: {fileID: 8658920016066857676}
-  NameParameterBool: Light
 --- !u!1 &4775440723263888237
 GameObject:
   m_ObjectHideFlags: 0
@@ -765,6 +750,8 @@ GameObject:
   - component: {fileID: 6023330998391129060}
   - component: {fileID: 4752812453095131176}
   - component: {fileID: 4365376835153020428}
+  - component: {fileID: 596635403544488002}
+  - component: {fileID: 3283549094897264666}
   m_Layer: 0
   m_Name: volpe1
   m_TagString: Untagged
@@ -917,6 +904,46 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AttR: {fileID: 6303751237785301390}
   AttL: {fileID: 2301258458343292684}
+--- !u!114 &596635403544488002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6023330998391129062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2378b46a75ade9c42a0fb77476c11f99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animationToChange: {fileID: 8658920016066857676}
+  NameParameterBool: Light
+--- !u!61 &3283549094897264666
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6023330998391129062}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 24.491062, y: 10.380001}
+    newSize: {x: 2.03, y: 2.22}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 13.44, y: 3.7}
+  m_EdgeRadius: 0
 --- !u!1 &6023330998744391996
 GameObject:
   m_ObjectHideFlags: 0

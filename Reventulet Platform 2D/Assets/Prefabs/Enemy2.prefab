@@ -10406,7 +10406,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0.7
-  closeStopDist: 10
+  closeStopDist: 3
   rightRayStart: {fileID: 6023330998744391997}
   RayDist: 20
   leftRayStart: {fileID: 6023330998095660552}
@@ -10424,7 +10424,7 @@ Animator:
   m_GameObject: {fileID: 6023330998391129062}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 697be11a51641c746a8820c08e299d1e, type: 2}
+  m_Controller: {fileID: 9100000, guid: 5491816fc73fefa489c49cbc21680d15, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
