@@ -9847,16 +9847,6 @@ PrefabInstance:
       propertyPath: m_SizeDelta.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7946362729635840648, guid: 8ba4ee11948c58246b2ddf96132a1798,
-        type: 3}
-      propertyPath: m_FillAmount
-      value: 0.99
-      objectReference: {fileID: 0}
-    - target: {fileID: 7946362729635840648, guid: 8ba4ee11948c58246b2ddf96132a1798,
-        type: 3}
-      propertyPath: m_Color.a
-      value: 0.6392157
-      objectReference: {fileID: 0}
     - target: {fileID: 7946362729635840651, guid: 8ba4ee11948c58246b2ddf96132a1798,
         type: 3}
       propertyPath: m_AnchorMax.x
