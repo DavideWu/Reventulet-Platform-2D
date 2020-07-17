@@ -532,7 +532,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68568b2654ed550448be73be2f05b6d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StartHp: 100
+  StartHp: 50
   animationToChange: {fileID: 7203168660915274029}
   healthBar: {fileID: 6071806069766748540}
   canTakeDMG: 1
