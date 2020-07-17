@@ -289,7 +289,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-  closeStopDist: 4
+  closeStopDist: 3
   rightRayStart: {fileID: 863661424466423444}
   RayDist: 20
   leftRayStart: {fileID: 863661422952974753}
@@ -521,7 +521,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: 0.20000002
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
