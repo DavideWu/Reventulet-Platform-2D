@@ -6,6 +6,8 @@ using UnityEngine.Events;
 
 public class Scatto : MonoBehaviour
 {
+    public Animator CDshakeAnim;
+    private bool shake = false;
     public float scattoF = 20f;
     public Slider sliderCD;
     public float cooldown = 10.0f;
@@ -84,6 +86,11 @@ public class Scatto : MonoBehaviour
                 cooldown = resetCooldown;
             }
         }
+        else
+        {
+            CDshakeAnim.SetBool("Shake", true);
+            shake = true;
+        }
     }
 
     private void Flip()
@@ -95,6 +102,7 @@ public class Scatto : MonoBehaviour
     // Update is called once per frame
     void LateUpdate()
     {
+        sliderCD.value = cooldown;
         if (anim)
         {
             anim = false;
@@ -113,7 +121,6 @@ public class Scatto : MonoBehaviour
         {
             animationToChange.SetBool(NameParameterBool, false);
             cooldown -= Time.deltaTime;
-            sliderCD.value = cooldown;
         }
         if (MelaSelvatica)
         {
@@ -123,6 +130,11 @@ public class Scatto : MonoBehaviour
                 MelaSelvatica = false;
                 AppleDuration = AppleDurationReset;
             }
+        }
+        if (shake)
+        {
+            shake = false;
+            CDshakeAnim.SetBool("Shake", false);
         }
     }
 }

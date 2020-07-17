@@ -915,6 +915,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4713301643084209263, guid: f92534fe64ae060448ff1ddd12a5312c,
+        type: 3}
+      propertyPath: whiteHole
+      value: 
+      objectReference: {fileID: 1811656952}
     - target: {fileID: 4716904670569936687, guid: f92534fe64ae060448ff1ddd12a5312c,
         type: 3}
       propertyPath: whiteHole
@@ -29683,6 +29688,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1527651866}
     m_Modifications:
+    - target: {fileID: 2378830582604923913, guid: f92534fe64ae060448ff1ddd12a5312c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2508761279295417190, guid: f92534fe64ae060448ff1ddd12a5312c,
         type: 3}
       propertyPath: m_Name
@@ -29743,6 +29753,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4713301643084209263, guid: f92534fe64ae060448ff1ddd12a5312c,
+        type: 3}
+      propertyPath: whiteHole
+      value: 
+      objectReference: {fileID: 1490721216}
     - target: {fileID: 4716904670569936674, guid: f92534fe64ae060448ff1ddd12a5312c,
         type: 3}
       propertyPath: m_IsActive
@@ -29753,6 +29768,11 @@ PrefabInstance:
       propertyPath: whiteHole
       value: 
       objectReference: {fileID: 1490721216}
+    - target: {fileID: 5855502611271806076, guid: f92534fe64ae060448ff1ddd12a5312c,
+        type: 3}
+      propertyPath: action.m_PersistentCalls.m_Calls.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5855502611271806076, guid: f92534fe64ae060448ff1ddd12a5312c,
         type: 3}
       propertyPath: action.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -29773,6 +29793,36 @@ PrefabInstance:
       propertyPath: action.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 5855502611271806076, guid: f92534fe64ae060448ff1ddd12a5312c,
+        type: 3}
+      propertyPath: action.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5855502611271806076, guid: f92534fe64ae060448ff1ddd12a5312c,
+        type: 3}
+      propertyPath: action.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5855502611271806076, guid: f92534fe64ae060448ff1ddd12a5312c,
+        type: 3}
+      propertyPath: action.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 1811656953}
+    - target: {fileID: 5855502611271806076, guid: f92534fe64ae060448ff1ddd12a5312c,
+        type: 3}
+      propertyPath: action.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 5855502611271806076, guid: f92534fe64ae060448ff1ddd12a5312c,
+        type: 3}
+      propertyPath: action.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 5855502611271806076, guid: f92534fe64ae060448ff1ddd12a5312c,
+        type: 3}
+      propertyPath: action.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9159063151047676649, guid: f92534fe64ae060448ff1ddd12a5312c,
         type: 3}
       propertyPath: m_Sprite
@@ -29790,6 +29840,12 @@ Transform:
 --- !u!1 &1811656952 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2508761279295417190, guid: f92534fe64ae060448ff1ddd12a5312c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1811656950}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1811656953 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2378830582604923913, guid: f92534fe64ae060448ff1ddd12a5312c,
     type: 3}
   m_PrefabInstance: {fileID: 1811656950}
   m_PrefabAsset: {fileID: 0}

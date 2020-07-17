@@ -11,12 +11,15 @@ public class Ch_SkillsCDAnim_Control : MonoBehaviour
     private float resetCooldown;
     public Animator animationToChange;
     public string NameParameterBool;
+    public Animator CDshakeAnim;
+    private bool shake = false;
     private bool anim = false;
     public int LvNeedToUnlock;
     public UnityEvent IfItsLocked;
     private bool MelaSelvatica;
     public float AppleDuration = 20f;
     private float AppleDurationReset;
+
 
     // Start is called before the first frame update
     private void Awake()
@@ -66,15 +69,20 @@ public class Ch_SkillsCDAnim_Control : MonoBehaviour
                 cooldown = resetCooldown;
             }
         }
+        else
+        {
+            CDshakeAnim.SetBool("Shake", true);
+            shake = true;
+        }
     }
     // Update is called once per frame
     void LateUpdate()
     {
+        sliderCD.value = cooldown;
         if (cooldown > 0.0f)
         {
             animationToChange.SetBool(NameParameterBool, false);
             cooldown -= Time.deltaTime;
-            sliderCD.value = cooldown;
         }
         if (MelaSelvatica)
         {
@@ -89,6 +97,11 @@ public class Ch_SkillsCDAnim_Control : MonoBehaviour
         {
             anim = false;
             animationToChange.SetBool(NameParameterBool, false);
+        }
+        if(shake)
+        {
+            shake = false;
+            CDshakeAnim.SetBool("Shake", false);
         }
     }
 }

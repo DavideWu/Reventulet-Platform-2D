@@ -10028,7 +10028,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.6320754, g: 0.49790847, b: 0.49790847, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -15038,7 +15038,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.42769688, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -20124,6 +20124,7 @@ GameObject:
   m_Component:
   - component: {fileID: 417250452143674036}
   - component: {fileID: 8734834982785147612}
+  - component: {fileID: 1450232589361643073}
   m_Layer: 5
   m_Name: SliderFireBall
   m_TagString: Untagged
@@ -20204,6 +20205,25 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!95 &1450232589361643073
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2671000094337299066}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a2a4d4444a3b88440b751ee4c57ad2b6, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2967265006917827091
 GameObject:
   m_ObjectHideFlags: 0
@@ -20251,6 +20271,7 @@ MonoBehaviour:
   cooldown: 1
   animationToChange: {fileID: 7946362730715577732}
   NameParameterBool: AttN
+  CDshakeAnim: {fileID: 292325079208544226}
   LvNeedToUnlock: 0
   IfItsLocked:
     m_PersistentCalls:
@@ -20266,6 +20287,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1185109423273435276}
   - component: {fileID: 6131240586329314117}
+  - component: {fileID: 292325079208544226}
   m_Layer: 5
   m_Name: SliderAttN
   m_TagString: Untagged
@@ -20346,6 +20368,25 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!95 &292325079208544226
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2974028673131184546}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9b089b277392f4b41a339861f8e6895d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &3022369719905053357
 GameObject:
   m_ObjectHideFlags: 0
@@ -25288,6 +25329,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8733196563395019192}
   - component: {fileID: 478535381454896437}
+  - component: {fileID: 4844118528270287182}
   m_Layer: 5
   m_Name: SliderDeff
   m_TagString: Untagged
@@ -25368,6 +25410,25 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!95 &4844118528270287182
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3216989520540656992}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 45197a1def5f64e43affdc1ce9875181, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &3900612289852350192
 GameObject:
   m_ObjectHideFlags: 0
@@ -31322,6 +31383,7 @@ MonoBehaviour:
   cooldown: 3
   animationToChange: {fileID: 7946362730715577732}
   NameParameterBool: SkillDeff
+  CDshakeAnim: {fileID: 4844118528270287182}
   LvNeedToUnlock: 4
   IfItsLocked:
     m_PersistentCalls:
@@ -31469,7 +31531,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.98188305, g: 1, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -32240,7 +32302,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.4764151, g: 0.5010543, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -32891,6 +32953,7 @@ MonoBehaviour:
   cooldown: 13
   animationToChange: {fileID: 3879851936934155114}
   NameParameterBool: Inv
+  CDshakeAnim: {fileID: 8149767063550509513}
   LvNeedToUnlock: 3
   IfItsLocked:
     m_PersistentCalls:
@@ -32980,6 +33043,7 @@ MonoBehaviour:
   cooldown: 0
   animationToChange: {fileID: 3879851936934155114}
   NameParameterBool: Slow
+  CDshakeAnim: {fileID: 0}
   LvNeedToUnlock: 0
   IfItsLocked:
     m_PersistentCalls:
@@ -33524,6 +33588,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7946362730690922514}
   - component: {fileID: 7946362730690922515}
+  - component: {fileID: 3468841001955222641}
   m_Layer: 5
   m_Name: SliderSprint
   m_TagString: Untagged
@@ -33604,6 +33669,25 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!95 &3468841001955222641
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7946362730690922517}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 11bacf308f9cc0f42a00b2baf0b6f0f0, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &7946362730692506128
 GameObject:
   m_ObjectHideFlags: 0
@@ -33614,6 +33698,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7946362730692506129}
   - component: {fileID: 7946362730692506222}
+  - component: {fileID: 8149767063550509513}
   m_Layer: 5
   m_Name: SliderInvisi
   m_TagString: Untagged
@@ -33694,6 +33779,25 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!95 &8149767063550509513
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7946362730692506128}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9752ef46ac637b14a9f92188de338ecb, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &7946362730701032500
 GameObject:
   m_ObjectHideFlags: 0
@@ -33912,6 +34016,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1504b1fa61f05114cb43f74b603402ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CDshakeAnim: {fileID: 3468841001955222641}
   scattoF: 700
   sliderCD: {fileID: 7946362730690922515}
   cooldown: 2
@@ -34006,10 +34111,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc7383c7d3192ea43aa4e00b8b51d3f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sliderCD: {fileID: 0}
+  sliderCD: {fileID: 7946362730690922515}
   cooldown: 10
   animationToChange: {fileID: 7946362730715577732}
   NameParameterBool: Stun
+  CDshakeAnim: {fileID: 0}
   LvNeedToUnlock: 0
   IfItsLocked:
     m_PersistentCalls:
@@ -34283,7 +34389,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: 0.3
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -35467,6 +35573,7 @@ MonoBehaviour:
   cooldown: 10
   animationToChange: {fileID: 7946362730715577732}
   NameParameterBool: FireBall
+  CDshakeAnim: {fileID: 1450232589361643073}
   LvNeedToUnlock: 2
   IfItsLocked:
     m_PersistentCalls:
@@ -40453,15 +40560,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f60c9d7cd111604897caa442b6529cd, type: 3}
---- !u!4 &7911018065621281707 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 5403435707189512192, guid: 6f60c9d7cd111604897caa442b6529cd,
-    type: 3}
-  m_PrefabInstance: {fileID: 2825244749621666731}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &891519690716401579 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3128340717782854656, guid: 6f60c9d7cd111604897caa442b6529cd,
+    type: 3}
+  m_PrefabInstance: {fileID: 2825244749621666731}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &7911018065621281707 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5403435707189512192, guid: 6f60c9d7cd111604897caa442b6529cd,
     type: 3}
   m_PrefabInstance: {fileID: 2825244749621666731}
   m_PrefabAsset: {fileID: 0}

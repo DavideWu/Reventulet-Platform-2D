@@ -9,7 +9,6 @@ ScriptsOnlyBuild:
     - FMODUnity.Settings
     - FMODUnity.StudioEventEmitter
     - SimpleInputNamespace.AxisInputUI
-    - SimpleInputNamespace.ButtonInputUI
     Assembly-CSharp.dll:
     - AnimationBoolPubVoid
     - Ch_Control2d
@@ -122,8 +121,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 11696}
     - Class: 114
       Script: {instanceID: 11924}
-    - Class: 114
-      Script: {instanceID: 12022}
     - Class: 114
       Script: {instanceID: 12028}
     - Class: 114
@@ -250,8 +247,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11924}
     - Class: 114
-      Script: {instanceID: 12022}
-    - Class: 114
       Script: {instanceID: 12028}
     - Class: 114
       Script: {instanceID: 12084}
@@ -306,7 +301,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 15078}
     - Class: 114
-      Script: {instanceID: 25184}
+      Script: {instanceID: 33350}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -369,11 +364,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11924}
     - Class: 114
-      Script: {instanceID: 12022}
-    - Class: 114
       Script: {instanceID: 12028}
     - Class: 114
       Script: {instanceID: 12084}
+    - Class: 114
+      Script: {instanceID: 12234}
     - Class: 114
       Script: {instanceID: 12330}
     - Class: 114
@@ -485,8 +480,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 11696}
     - Class: 114
       Script: {instanceID: 11924}
-    - Class: 114
-      Script: {instanceID: 12022}
     - Class: 114
       Script: {instanceID: 12028}
     - Class: 114
@@ -612,8 +605,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 11696}
     - Class: 114
       Script: {instanceID: 11924}
-    - Class: 114
-      Script: {instanceID: 12022}
     - Class: 114
       Script: {instanceID: 12028}
     - Class: 114
@@ -951,8 +942,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 11696}
     - Class: 114
       Script: {instanceID: 11924}
-    - Class: 114
-      Script: {instanceID: 12022}
     - Class: 114
       Script: {instanceID: 12028}
     - Class: 114
@@ -1636,7 +1625,7 @@ ScriptsOnlyBuild:
     className: CinemachineTrackedDolly
   - hash:
       serializedVersion: 2
-      Hash: 5ad0039b5ef8e2bba30465448333a4a8
+      Hash: 139674972cc0027af1e1eca75fbf86bd
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Ch_SkillsCDAnim_Control
@@ -1870,7 +1859,7 @@ ScriptsOnlyBuild:
     className: TimelineAsset
   - hash:
       serializedVersion: 2
-      Hash: a8cf71828018af3c0237552c4e93d079
+      Hash: c7b00bf5f664b972834f220b669ab631
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Scatto
