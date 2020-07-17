@@ -23,7 +23,7 @@ public class Ch_Control2d : MonoBehaviour
         anim = GetComponent<Animator>();
     }
 
-    private void jump ()
+    public void jump ()
     {
         RaycastHit2D grounded = Physics2D.Raycast(groundedRay.position, Vector2.down, groundDetectDist);
         if (grounded.collider != null)
@@ -87,11 +87,12 @@ public class Ch_Control2d : MonoBehaviour
             anim.SetBool("H_Move", false);
         }
 
-        bool Jump = SimpleInput.GetButtonUp("Jump");
+        /* bassa sensibilità 
+         * bool Jump = SimpleInput.GetButtonUp("Jump");
         if (Jump)
         {
             jump();
-        }
+        }*/
     }
 
 }
