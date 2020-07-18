@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Lv5.unity
+- path: Assets/Scenes/Scene2SelectDifficulty.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
