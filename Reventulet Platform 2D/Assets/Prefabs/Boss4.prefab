@@ -97,7 +97,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 863661422952974754}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.6896873, y: -2.8400002, z: 0}
+  m_LocalPosition: {x: 7.6896873, y: -2.99, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7003859395595234901}
@@ -129,7 +129,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 863661424466423445}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.1803126, y: -2.84, z: 0}
+  m_LocalPosition: {x: -7.1803126, y: -2.990001, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4283604643107241141}
@@ -220,8 +220,8 @@ SpriteRenderer:
   m_SortingLayerID: -1443824005
   m_SortingLayer: 2
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 65afa28dd00ce7742aa60cab9b240cb3, type: 3}
-  m_Color: {r: 0.6792453, g: 0.6792453, b: 0.6792453, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 5d68a7c52e1e67242a5fb7cc466a8b9f, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
@@ -265,11 +265,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-  closeStopDist: 3
+  closeStopDist: 4
   rightRayStart: {fileID: 863661424466423444}
   RayDist: 20
   leftRayStart: {fileID: 863661422952974753}
-  groundDetectDist: 1
+  groundDetectDist: 2
   obstacleDetectDist: 1.07
   turnChance: 20
   turnDecisionCD: 3
@@ -283,7 +283,7 @@ Animator:
   m_GameObject: {fileID: 863661424826027087}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 2e02df7732c450e469d766aaa0f1e525, type: 2}
+  m_Controller: {fileID: 9100000, guid: 5fd85c8a855edca4fb66f374d6a9d17d, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -376,7 +376,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.36, y: 1.42}
+  m_Size: {x: 2.25, y: 1.42}
   m_EdgeRadius: 0
 --- !u!114 &6544775145207411934
 MonoBehaviour:
@@ -391,8 +391,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TagOnTriggerEnter: Player
-  DamageMin: 5
-  DamageMax: 10
+  DamageMin: 10
+  DamageMax: 20
 --- !u!1 &1618545096031495036
 GameObject:
   m_ObjectHideFlags: 0
@@ -451,7 +451,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1722218566796037762}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -0.18000126, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 863661424466423444}
@@ -10611,7 +10611,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.36, y: 1.42}
+  m_Size: {x: 2.25, y: 1.42}
   m_EdgeRadius: 0
 --- !u!114 &1521890456916941480
 MonoBehaviour:
@@ -10626,8 +10626,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TagOnTriggerEnter: Player
-  DamageMin: 5
-  DamageMax: 10
+  DamageMin: 10
+  DamageMax: 20
 --- !u!1 &5996899403985649457
 GameObject:
   m_ObjectHideFlags: 0
@@ -10881,7 +10881,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7645525053952412107}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.03, y: 0, z: 0}
+  m_LocalPosition: {x: 0.03, y: 0.35, z: 0}
   m_LocalScale: {x: 6.2977977, y: 6.2977977, z: 6.2977977}
   m_Children:
   - {fileID: 285596059819548756}
@@ -10974,7 +10974,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8149683358289932348}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -0.18, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1.0000273}
   m_Children: []
   m_Father: {fileID: 863661422952974753}
@@ -11034,7 +11034,7 @@ Transform:
   m_GameObject: {fileID: 8722895209987467651}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0.651, z: 0}
-  m_LocalScale: {x: 3.027634, y: 0.32043302, z: 1}
+  m_LocalScale: {x: 2.8611138, y: 0.32043302, z: 1}
   m_Children: []
   m_Father: {fileID: 2042484361731570877}
   m_RootOrder: 0
