@@ -14,21 +14,28 @@ public class EnemyLRAttOnEnable : MonoBehaviour
     }
 
     // Update is called once per frame
-    private void OnEnable()
+    void Update()
     {
         if (render.flipX == false)
         {
             AttR.SetActive(true);
+            AttL.SetActive(false);
         }
-        else
+        else if (render.flipX == true)
         {
             AttL.SetActive(true);
+            AttR.SetActive(false);
         }
+    }
+
+    private void stun()
+    {
+        AttR.SetActive(false);
+        AttL.SetActive(false);
     }
 
     private void OnDisable()
     {
-        AttR.SetActive(false);
-        AttL.SetActive(false);
+        stun();
     }
 }

@@ -555,7 +555,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.67, y: 1.37}
+  m_Size: {x: 1.43, y: 1.37}
   m_EdgeRadius: 0
 --- !u!114 &8204404744384774303
 MonoBehaviour:
@@ -839,7 +839,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-  closeStopDist: 3.5
+  closeStopDist: 3
   rightRayStart: {fileID: 6023330998744391997}
   RayDist: 20
   leftRayStart: {fileID: 6023330998095660552}
