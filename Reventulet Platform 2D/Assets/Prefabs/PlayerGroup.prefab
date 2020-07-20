@@ -41116,6 +41116,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1.1707
       objectReference: {fileID: 0}
+    - target: {fileID: 6854251883870511153, guid: 855ea38aac4beed45881ffe77fa4a7b7,
+        type: 3}
+      propertyPath: Event
+      value: event:/One shot/explosion2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 855ea38aac4beed45881ffe77fa4a7b7, type: 3}
 --- !u!1 &8374139638152630308 stripped
