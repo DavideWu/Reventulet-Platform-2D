@@ -7,7 +7,7 @@
 [LOG] OutputWASAPI::init                       : Output buffer size: 4096 samples, latency: 0.00ms, period: 10.00ms, DSP buffer: 1024 * 4
 [LOG] Thread::initThread                       : Init FMOD stream thread. Priority: 2, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Priority: 3, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 0000021D8A04D918 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 0000021D8A050758 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Priority: 0, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
@@ -17,74 +17,10 @@
 [LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 125)
 [LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 125)
 [LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 125)
+[LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 125)
+[LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 125)
+[LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 125)
 [LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
-[LOG] SoundI::release                          :  (0000021D2B9664D8)
-[LOG] SoundI::release                          :     snow flake picked (0000021D864D8168)
-[LOG] SoundI::release                          :  (0000021D2B967788)
-[LOG] SoundI::release                          :     new game button (0000021D864D72C8)
-[LOG] SoundI::release                          : yes & no button.wav (0000021D2E2AB648)
-[LOG] SoundI::release                          :  (0000021D2B966D78)
-[LOG] SoundI::release                          :     jump2 (0000021D864D7128)
-[LOG] SoundI::release                          :  (0000021D2B9695B8)
-[LOG] SoundI::release                          :     fireball throw (0000021D864D7AE8)
-[LOG] SoundI::release                          :  (0000021D2B969A08)
-[LOG] SoundI::release                          :     talisman picked (0000021D864D8308)
-[LOG] SoundI::release                          :  (0000021D2B967058)
-[LOG] SoundI::release                          :     enemy bite (0000021D2E2ABB28)
-[LOG] SoundI::release                          :  (0000021D2B9692D8)
-[LOG] SoundI::release                          :     Fox steps_06 (0000021D2E0710D8)
-[LOG] SoundI::release                          :  (0000021D2B966EE8)
-[LOG] SoundI::release                          :     Fox steps_08 (0000021D2E2AB7E8)
-[LOG] SoundI::release                          :  (0000021D2B969B78)
-[LOG] SoundI::release                          :     Fox steps_09 (0000021D864D87E8)
-[LOG] SoundI::release                          :  (0000021D2B969448)
-[LOG] SoundI::release                          :     Fox steps_10 (0000021D864D7608)
-[LOG] SoundI::release                          :  (0000021D2B968478)
-[LOG] SoundI::release                          :     skill sound 2 (0000021D2E2AA7A8)
-[LOG] SoundI::release                          :  (0000021D2B966A98)
-[LOG] SoundI::release                          :     kettu jump (0000021D864D7C88)
-[LOG] SoundI::release                          :  (0000021D2B9661F8)
-[LOG] SoundI::release                          :     sprint (0000021D864D8E68)
-[LOG] SoundI::release                          :  (0000021D2B9685E8)
-[LOG] SoundI::release                          :     pick acorn (0000021D2E2AAC88)
-[LOG] SoundI::release                          :  (0000021D2B9671C8)
-[LOG] SoundI::release                          :     kettu hurt (0000021D2E2AAFC8)
-[LOG] SoundI::release                          :  (0000021D2B969CE8)
-[LOG] SoundI::release                          :     Fox steps_02 (0000021D864D77A8)
-[LOG] SoundI::release                          :  (0000021D2B968308)
-[LOG] SoundI::release                          :     Fox steps_03 (0000021D2E2ABCC8)
-[LOG] SoundI::release                          :  (0000021D2B968198)
-[LOG] SoundI::release                          :     Fox steps_04 (0000021D864D7948)
-[LOG] SoundI::release                          :  (0000021D2B966088)
-[LOG] SoundI::release                          :     Fox steps_05 (0000021D2E2AB988)
-[LOG] SoundI::release                          :  (0000021D2B969898)
-[LOG] SoundI::release                          :     difficulty selection button (0000021D864D7FC8)
-[LOG] SoundI::release                          :  (0000021D2B966928)
-[LOG] SoundI::release                          :     fox bark 2_03 (0000021D864D8648)
-[LOG] SoundI::release                          :  (0000021D2B966648)
-[LOG] SoundI::release                          :     fox bark 2_0101 (0000021D864D8988)
-[LOG] SoundI::release                          :  (0000021D2B968028)
-[LOG] SoundI::release                          :     fox bark 2_02 (0000021D864D84A8)
-[LOG] SoundI::release                          :  (0000021D2B967618)
-[LOG] SoundI::release                          :     fireball (0000021D864D7468)
-[LOG] SoundI::release                          :  (0000021D2B969E58)
-[LOG] SoundI::release                          :     fireball explosition (0000021D864D8B28)
-[LOG] SoundI::release                          :  (0000021D2B966368)
-[LOG] SoundI::release                          :     teleport2 (0000021D864D7E28)
-[LOG] Thread::callback                         : FMOD Studio update thread finished.
-[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
-[LOG] ProfileClient::markForDead               : Closing client connection
-[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
-[LOG] Thread::callback                         : FMOD profiler thread (send) finished.
-[LOG] FMOD_OS_Net_Read                         : Interrupted.[LOG] ProfileClient::recvThreadLoopFunction    : Socket disconnected
-[LOG] Thread::callback                         : FMOD profiler thread (recv) finished.
-[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
-[LOG] LiveUpdate::release                      : 
-[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
-[LOG] Thread::callback                         : FMOD stream thread finished.
-[LOG] Thread::callback                         : FMOD mixer thread finished.
-[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
-[LOG] SystemI::close                           : Closed.
 [LOG] Thread::callback                         : FMOD Studio bank load thread finished.
 [LOG] Thread::callback                         : FMOD Studio sample load thread finished.
 [LOG] LiveUpdate::release                      : 

@@ -31252,8 +31252,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CollisionTag: 
   Event: event:/Buttons/yes & no button
-  PlayEvent: 11
-  StopEvent: 12
+  PlayEvent: 0
+  StopEvent: 0
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
