@@ -806,6 +806,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RenderDist: 20
+--- !u!1 &135943547 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 297602488025003667, guid: d408cb31d71239e4d8ebc5ef99a3d364,
+    type: 3}
+  m_PrefabInstance: {fileID: 636962296}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &135943548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 135943547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ListenerNumber: -1
 --- !u!1 &140419123
 GameObject:
   m_ObjectHideFlags: 0
@@ -2724,7 +2743,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 297602488025003666, guid: d408cb31d71239e4d8ebc5ef99a3d364, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d408cb31d71239e4d8ebc5ef99a3d364, type: 3}
 --- !u!1 &658241933
 GameObject:

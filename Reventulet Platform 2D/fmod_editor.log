@@ -7,7 +7,7 @@
 [LOG] OutputWASAPI::init                       : Output buffer size: 4096 samples, latency: 0.00ms, period: 10.00ms, DSP buffer: 1024 * 4
 [LOG] Thread::initThread                       : Init FMOD stream thread. Priority: 2, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Priority: 3, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 0000021D8A04CD88 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 0000021D8A04D918 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Priority: 0, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
@@ -17,201 +17,66 @@
 [LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 125)
 [LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 125)
 [LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 125)
-[LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 125)
-[LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 125)
-[LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 125)
-[LOG] Manager::receiveLiveUpdateBank           : Received live update bank path: fmod:///remote/C:/Users/ElyFa/AppData/Local/FMOD Studio/UnsavedProjects/Hotswap-k52Zk9/hotswap_136.bank
-[LOG] ProfileRemoteFile::fileOpen              : Attemping to open remote file 'C:/Users/ElyFa/AppData/Local/FMOD Studio/UnsavedProjects/Hotswap-k52Zk9/hotswap_136.bank'
-[LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 125)
-[LOG] Manager::receiveLiveUpdateBank           : Received live update bank path: fmod:///remote/C:/Users/ElyFa/AppData/Local/FMOD Studio/UnsavedProjects/Hotswap-k52Zk9/hotswap_137.bank
-[LOG] ProfileRemoteFile::fileOpen              : Attemping to open remote file 'C:/Users/ElyFa/AppData/Local/FMOD Studio/UnsavedProjects/Hotswap-k52Zk9/hotswap_137.bank'
-[LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 125)
-[LOG] Manager::receiveLiveUpdateBank           : Received live update bank path: fmod:///remote/C:/Users/ElyFa/AppData/Local/FMOD Studio/UnsavedProjects/Hotswap-k52Zk9/hotswap_138.bank
-[LOG] ProfileRemoteFile::fileOpen              : Attemping to open remote file 'C:/Users/ElyFa/AppData/Local/FMOD Studio/UnsavedProjects/Hotswap-k52Zk9/hotswap_138.bank'
-[LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 125)
-[LOG] Manager::receiveLiveUpdateBank           : Received live update bank path: fmod:///remote/C:/Users/ElyFa/AppData/Local/FMOD Studio/UnsavedProjects/Hotswap-k52Zk9/hotswap_139.bank
-[LOG] ProfileRemoteFile::fileOpen              : Attemping to open remote file 'C:/Users/ElyFa/AppData/Local/FMOD Studio/UnsavedProjects/Hotswap-k52Zk9/hotswap_139.bank'
-[LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 125)
-[LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 125)
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000021D2E4656F8
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000021D2E4656F8
-[LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 125)
-[LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 125)
-[LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 125)
-[LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 125)
-[LOG] SystemI::createSound                     : filename = Audio_FMOD/Build/Desktop/Master.bank : mode 02010082
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSound                     : setdata soundi = 0000021D8BC8EC58 : node = 0000021D2EB29580
-[LOG] SystemI::createSound                     : add node to async list : head = 0000021D2E7C0118.  list count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000021D8BC8EC58
-[LOG] SystemI::createSoundInternal             :     Create name='Audio_FMOD/Build/Desktop/Master.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 8797760
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 33696
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000021D2EB29690
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 2500
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='ambience lv 2', format=2, channels=2, frequency=48000, lengthbytes=1193280, lengthpcm=2475154, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.792999.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000021D8BC8EC58
-[LOG] SoundI::getSubSound                      : sound 0000021D8BC8EC58.  Subsound index 0 / 1
-[LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 125)
-[LOG] Manager::receiveLiveUpdateBank           : Received live update bank path: fmod:///remote/C:/Users/ElyFa/AppData/Local/FMOD Studio/UnsavedProjects/Hotswap-k52Zk9/hotswap_140.bank
-[LOG] ProfileRemoteFile::fileOpen              : Attemping to open remote file 'C:/Users/ElyFa/AppData/Local/FMOD Studio/UnsavedProjects/Hotswap-k52Zk9/hotswap_140.bank'
-[LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 125)
-[LOG] Manager::receiveLiveUpdateBank           : Received live update bank path: fmod:///remote/C:/Users/ElyFa/AppData/Local/FMOD Studio/UnsavedProjects/Hotswap-k52Zk9/hotswap_141.bank
-[LOG] ProfileRemoteFile::fileOpen              : Attemping to open remote file 'C:/Users/ElyFa/AppData/Local/FMOD Studio/UnsavedProjects/Hotswap-k52Zk9/hotswap_141.bank'
-[LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 125)
-[LOG] Manager::receiveLiveUpdateBank           : Received live update bank path: fmod:///remote/C:/Users/ElyFa/AppData/Local/FMOD Studio/UnsavedProjects/Hotswap-k52Zk9/hotswap_142.bank
-[LOG] ProfileRemoteFile::fileOpen              : Attemping to open remote file 'C:/Users/ElyFa/AppData/Local/FMOD Studio/UnsavedProjects/Hotswap-k52Zk9/hotswap_142.bank'
-[LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 125)
-[LOG] Manager::receiveLiveUpdateBank           : Received live update bank path: fmod:///remote/C:/Users/ElyFa/AppData/Local/FMOD Studio/UnsavedProjects/Hotswap-k52Zk9/hotswap_143.bank
-[LOG] ProfileRemoteFile::fileOpen              : Attemping to open remote file 'C:/Users/ElyFa/AppData/Local/FMOD Studio/UnsavedProjects/Hotswap-k52Zk9/hotswap_143.bank'
-[LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 125)
-[LOG] Manager::receiveLiveUpdateBank           : Received live update bank path: fmod:///remote/C:/Users/ElyFa/AppData/Local/FMOD Studio/UnsavedProjects/Hotswap-k52Zk9/hotswap_144.bank
-[LOG] ProfileRemoteFile::fileOpen              : Attemping to open remote file 'C:/Users/ElyFa/AppData/Local/FMOD Studio/UnsavedProjects/Hotswap-k52Zk9/hotswap_144.bank'
-[LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 125)
-[LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 125)
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000021D2E465A58
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000021D2E465A58
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000021D2E4656F8
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000021D2E4656F8
-[LOG] SoundI::release                          : ambience lv 2 (0000021D2E465398)
-[LOG] SoundI::release                          :     ambience lv 2 (0000021D8654C718)
-[LOG] SoundI::release                          :     ambience lv 2 (0000021D2E4656F8)
-[LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 125)
-[LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 125)
-[LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 125)
-[LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 125)
-[LOG] ProfileClient::recvThreadLoopFunction    : Socket disconnected
-[LOG] ProfileClient::markForDead               : Closing client connection
-[LOG] Thread::callback                         : FMOD profiler thread (recv) finished.
-[LOG] Thread::callback                         : FMOD profiler thread (send) finished.
-[LOG] LiveUpdate::clientDisconnected           : client = 0000021D32C83658
-[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
-[LOG] Thread::initThread                       : Init FMOD profiler thread (recv). Priority: 0, Stack Size: 131072, Semaphore: No, Sleep Time: 0, Looping: No.
-[LOG] Thread::initThread                       : Init FMOD profiler thread (send). Priority: 0, Stack Size: 131072, Semaphore: No, Sleep Time: 0, Looping: No.
-[LOG] LiveUpdate::clientConnected              : client = 0000021CC7986848
-[LOG] LiveUpdate::readPacket                   : Recieved init packet from client 0000021CC7986848
-[LOG] LiveUpdate::readPacket                   : Accepting init message for client 0000021CC7986848
-[LOG] LiveUpdate::transitionToConnected        : 
-[LOG] LiveUpdate::acceptInitPacket             : Client 0000021CC7986848 connected, entering connected state
-[LOG] ProfileClient::recvThreadLoopFunction    : Socket disconnected
-[LOG] ProfileClient::markForDead               : Closing client connection
-[LOG] Thread::callback                         : FMOD profiler thread (recv) finished.
-[LOG] Thread::callback                         : FMOD profiler thread (send) finished.
-[LOG] LiveUpdate::clientDisconnected           : client = 0000021CC7986848
-[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
-[LOG] Thread::initThread                       : Init FMOD profiler thread (recv). Priority: 0, Stack Size: 131072, Semaphore: No, Sleep Time: 0, Looping: No.
-[LOG] Thread::initThread                       : Init FMOD profiler thread (send). Priority: 0, Stack Size: 131072, Semaphore: No, Sleep Time: 0, Looping: No.
-[LOG] LiveUpdate::clientConnected              : client = 0000021CC7986848
-[LOG] LiveUpdate::readPacket                   : Recieved init packet from client 0000021CC7986848
-[LOG] LiveUpdate::readPacket                   : Accepting init message for client 0000021CC7986848
-[LOG] LiveUpdate::transitionToConnected        : 
-[LOG] Manager::sendConnectTimeHash             : 
-[LOG] LiveUpdate::sendBankHash                 : 
-[LOG] LiveUpdate::acceptInitPacket             : Client 0000021CC7986848 connected, entering connected state
-[LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 125)
-[LOG] Manager::receiveLiveUpdateBank           : Received live update bank path: fmod:///remote/C:/Users/ElyFa/AppData/Local/FMOD Studio/UnsavedProjects/Hotswap-k52Zk9/hotswap_145.bank
-[LOG] ProfileRemoteFile::fileOpen              : Attemping to open remote file 'C:/Users/ElyFa/AppData/Local/FMOD Studio/UnsavedProjects/Hotswap-k52Zk9/hotswap_145.bank'
-[LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 125)
-[LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 125)
-[LOG] ProfileClient::recvThreadLoopFunction    : Socket disconnected
-[LOG] ProfileClient::markForDead               : Closing client connection
-[LOG] Thread::callback                         : FMOD profiler thread (send) finished.
-[LOG] Thread::callback                         : FMOD profiler thread (recv) finished.
-[LOG] LiveUpdate::clientDisconnected           : client = 0000021CC7986848
-[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
-[LOG] Thread::initThread                       : Init FMOD profiler thread (recv). Priority: 0, Stack Size: 131072, Semaphore: No, Sleep Time: 0, Looping: No.
-[LOG] Thread::initThread                       : Init FMOD profiler thread (send). Priority: 0, Stack Size: 131072, Semaphore: No, Sleep Time: 0, Looping: No.
-[LOG] LiveUpdate::clientConnected              : client = 0000021CC7986848
-[LOG] LiveUpdate::readPacket                   : Recieved init packet from client 0000021CC7986848
-[LOG] LiveUpdate::readPacket                   : Accepting init message for client 0000021CC7986848
-[LOG] LiveUpdate::transitionToConnected        : 
-[LOG] LiveUpdate::acceptInitPacket             : Client 0000021CC7986848 connected, entering connected state
-[LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 125)
-[LOG] ProfileClient::recvThreadLoopFunction    : Socket disconnected
-[LOG] ProfileClient::markForDead               : Closing client connection
-[LOG] Thread::callback                         : FMOD profiler thread (recv) finished.
-[LOG] Thread::callback                         : FMOD profiler thread (send) finished.
-[LOG] LiveUpdate::clientDisconnected           : client = 0000021CC7986848
-[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
-[LOG] Thread::initThread                       : Init FMOD profiler thread (recv). Priority: 0, Stack Size: 131072, Semaphore: No, Sleep Time: 0, Looping: No.
-[LOG] Thread::initThread                       : Init FMOD profiler thread (send). Priority: 0, Stack Size: 131072, Semaphore: No, Sleep Time: 0, Looping: No.
-[LOG] LiveUpdate::clientConnected              : client = 0000021CC7987368
-[LOG] LiveUpdate::readPacket                   : Recieved init packet from client 0000021CC7987368
-[LOG] LiveUpdate::readPacket                   : Accepting init message for client 0000021CC7987368
-[LOG] LiveUpdate::transitionToConnected        : 
-[LOG] Manager::sendConnectTimeHash             : 
-[LOG] LiveUpdate::sendBankHash                 : 
-[LOG] LiveUpdate::acceptInitPacket             : Client 0000021CC7987368 connected, entering connected state
-[LOG] Manager::receiveLiveUpdateBank           : Received live update bank path: fmod:///remote/C:/Users/ElyFa/AppData/Local/FMOD Studio/UnsavedProjects/Hotswap-k52Zk9/hotswap_146.bank
-[LOG] ProfileRemoteFile::fileOpen              : Attemping to open remote file 'C:/Users/ElyFa/AppData/Local/FMOD Studio/UnsavedProjects/Hotswap-k52Zk9/hotswap_146.bank'
-[LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 125)
-[LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 125)
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000021D2E465A58
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000021D2E465A58
-[LOG] SoundI::release                          : ambience lv 2 (0000021D8BC8EC58)
-[LOG] SoundI::release                          :     ambience lv 2 (0000021D299BDE18)
-[LOG] SoundI::release                          :     ambience lv 2 (0000021D2E465A58)
-[LOG] SoundI::release                          :  (0000021D8BD9F1E8)
-[LOG] SoundI::release                          :     snow flake picked (0000021D2D258288)
-[LOG] SoundI::release                          :  (0000021D8BDA0498)
-[LOG] SoundI::release                          :     new game button (0000021D2D258AA8)
-[LOG] SoundI::release                          :  (0000021D86154D68)
-[LOG] SoundI::release                          :     yes & no button (0000021D2CF2E088)
-[LOG] SoundI::release                          :  (0000021D8BD9F7A8)
-[LOG] SoundI::release                          :     jump2 (0000021D2D2580E8)
-[LOG] SoundI::release                          :  (0000021D8BD9EC28)
-[LOG] SoundI::release                          :     fireball throw (0000021D2D258768)
-[LOG] SoundI::release                          :  (0000021D8BD9E388)
-[LOG] SoundI::release                          :     talisman picked (0000021D2D258428)
-[LOG] SoundI::release                          :  (0000021D8BD9FD68)
-[LOG] SoundI::release                          :     enemy bite (0000021D2E64FDA8)
-[LOG] SoundI::release                          :  (0000021D86154358)
-[LOG] SoundI::release                          :     Fox steps_06 (0000021D29ABE218)
-[LOG] SoundI::release                          :  (0000021D8BD9F358)
-[LOG] SoundI::release                          :     Fox steps_08 (0000021D2E650288)
-[LOG] SoundI::release                          :  (0000021D8BD9E4F8)
-[LOG] SoundI::release                          :     Fox steps_09 (0000021D2D258908)
-[LOG] SoundI::release                          :  (0000021D8BD9EAB8)
-[LOG] SoundI::release                          :     Fox steps_10 (0000021D2CF2E568)
-[LOG] SoundI::release                          :  (0000021D3277C298)
-[LOG] SoundI::release                          :     skill sound 2 (0000021D2E650AA8)
-[LOG] SoundI::release                          :  (0000021D8BDA0778)
-[LOG] SoundI::release                          :     kettu jump (0000021D2D257F48)
-[LOG] SoundI::release                          :  (0000021D8BD9E948)
-[LOG] SoundI::release                          :     sprint (0000021D2D2585C8)
-[LOG] SoundI::release                          :  (0000021D3277D828)
-[LOG] SoundI::release                          :     pick acorn (0000021D2E6505C8)
-[LOG] SoundI::release                          :  (0000021D3277C578)
-[LOG] SoundI::release                          :     kettu hurt (0000021D2E64FF48)
-[LOG] SoundI::release                          : Fox steps_02.wav (0000021D8654CA58)
-[LOG] SoundI::release                          : Fox steps_03.wav (0000021D8654CBF8)
-[LOG] SoundI::release                          : Fox steps_04.wav (0000021D8654C8B8)
-[LOG] SoundI::release                          : Fox steps_05.wav (0000021D8654D278)
-[LOG] SoundI::release                          :  (0000021D86153668)
-[LOG] SoundI::release                          :     difficulty selection button (0000021D2CF2E228)
-[LOG] SoundI::release                          :  (0000021D8BDA18B8)
-[LOG] SoundI::release                          :     fox bark 2_03 (0000021D2CF2E708)
-[LOG] SoundI::release                          :  (0000021D8BDA12F8)
-[LOG] SoundI::release                          :     fox bark 2_0101 (0000021D2CF2EA48)
-[LOG] SoundI::release                          :  (0000021D86154A88)
-[LOG] SoundI::release                          :     fox bark 2_02 (0000021D2CF2EBE8)
-[LOG] SoundI::release                          :  (0000021D86154918)
-[LOG] SoundI::release                          :     fireball (0000021D2CF2E3C8)
-[LOG] SoundI::release                          :  (0000021D8BD9E668)
-[LOG] SoundI::release                          :     fireball explosition (0000021D2D257DA8)
-[LOG] SoundI::release                          :  (0000021D86153218)
-[LOG] SoundI::release                          :     teleport2 (0000021D29ABE078)
+[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
+[LOG] SoundI::release                          :  (0000021D2B9664D8)
+[LOG] SoundI::release                          :     snow flake picked (0000021D864D8168)
+[LOG] SoundI::release                          :  (0000021D2B967788)
+[LOG] SoundI::release                          :     new game button (0000021D864D72C8)
+[LOG] SoundI::release                          : yes & no button.wav (0000021D2E2AB648)
+[LOG] SoundI::release                          :  (0000021D2B966D78)
+[LOG] SoundI::release                          :     jump2 (0000021D864D7128)
+[LOG] SoundI::release                          :  (0000021D2B9695B8)
+[LOG] SoundI::release                          :     fireball throw (0000021D864D7AE8)
+[LOG] SoundI::release                          :  (0000021D2B969A08)
+[LOG] SoundI::release                          :     talisman picked (0000021D864D8308)
+[LOG] SoundI::release                          :  (0000021D2B967058)
+[LOG] SoundI::release                          :     enemy bite (0000021D2E2ABB28)
+[LOG] SoundI::release                          :  (0000021D2B9692D8)
+[LOG] SoundI::release                          :     Fox steps_06 (0000021D2E0710D8)
+[LOG] SoundI::release                          :  (0000021D2B966EE8)
+[LOG] SoundI::release                          :     Fox steps_08 (0000021D2E2AB7E8)
+[LOG] SoundI::release                          :  (0000021D2B969B78)
+[LOG] SoundI::release                          :     Fox steps_09 (0000021D864D87E8)
+[LOG] SoundI::release                          :  (0000021D2B969448)
+[LOG] SoundI::release                          :     Fox steps_10 (0000021D864D7608)
+[LOG] SoundI::release                          :  (0000021D2B968478)
+[LOG] SoundI::release                          :     skill sound 2 (0000021D2E2AA7A8)
+[LOG] SoundI::release                          :  (0000021D2B966A98)
+[LOG] SoundI::release                          :     kettu jump (0000021D864D7C88)
+[LOG] SoundI::release                          :  (0000021D2B9661F8)
+[LOG] SoundI::release                          :     sprint (0000021D864D8E68)
+[LOG] SoundI::release                          :  (0000021D2B9685E8)
+[LOG] SoundI::release                          :     pick acorn (0000021D2E2AAC88)
+[LOG] SoundI::release                          :  (0000021D2B9671C8)
+[LOG] SoundI::release                          :     kettu hurt (0000021D2E2AAFC8)
+[LOG] SoundI::release                          :  (0000021D2B969CE8)
+[LOG] SoundI::release                          :     Fox steps_02 (0000021D864D77A8)
+[LOG] SoundI::release                          :  (0000021D2B968308)
+[LOG] SoundI::release                          :     Fox steps_03 (0000021D2E2ABCC8)
+[LOG] SoundI::release                          :  (0000021D2B968198)
+[LOG] SoundI::release                          :     Fox steps_04 (0000021D864D7948)
+[LOG] SoundI::release                          :  (0000021D2B966088)
+[LOG] SoundI::release                          :     Fox steps_05 (0000021D2E2AB988)
+[LOG] SoundI::release                          :  (0000021D2B969898)
+[LOG] SoundI::release                          :     difficulty selection button (0000021D864D7FC8)
+[LOG] SoundI::release                          :  (0000021D2B966928)
+[LOG] SoundI::release                          :     fox bark 2_03 (0000021D864D8648)
+[LOG] SoundI::release                          :  (0000021D2B966648)
+[LOG] SoundI::release                          :     fox bark 2_0101 (0000021D864D8988)
+[LOG] SoundI::release                          :  (0000021D2B968028)
+[LOG] SoundI::release                          :     fox bark 2_02 (0000021D864D84A8)
+[LOG] SoundI::release                          :  (0000021D2B967618)
+[LOG] SoundI::release                          :     fireball (0000021D864D7468)
+[LOG] SoundI::release                          :  (0000021D2B969E58)
+[LOG] SoundI::release                          :     fireball explosition (0000021D864D8B28)
+[LOG] SoundI::release                          :  (0000021D2B966368)
+[LOG] SoundI::release                          :     teleport2 (0000021D864D7E28)
 [LOG] Thread::callback                         : FMOD Studio update thread finished.
 [LOG] Thread::callback                         : FMOD Studio bank load thread finished.
 [LOG] ProfileClient::markForDead               : Closing client connection
 [LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
-[LOG] FMOD_OS_Net_Read                         : Interrupted.[LOG] ProfileClient::recvThreadLoopFunction    : Socket disconnected
 [LOG] Thread::callback                         : FMOD profiler thread (send) finished.
+[LOG] FMOD_OS_Net_Read                         : Interrupted.[LOG] ProfileClient::recvThreadLoopFunction    : Socket disconnected
 [LOG] Thread::callback                         : FMOD profiler thread (recv) finished.
 [LOG] Thread::callback                         : FMOD Studio sample load thread finished.
 [LOG] LiveUpdate::release                      : 
@@ -219,4 +84,11 @@
 [LOG] Thread::callback                         : FMOD stream thread finished.
 [LOG] Thread::callback                         : FMOD mixer thread finished.
 [LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
+[LOG] SystemI::close                           : Closed.
+[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
+[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
+[LOG] LiveUpdate::release                      : 
+[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
+[LOG] Thread::callback                         : FMOD stream thread finished.
+[LOG] Thread::callback                         : FMOD mixer thread finished.
 [LOG] SystemI::close                           : Closed.
